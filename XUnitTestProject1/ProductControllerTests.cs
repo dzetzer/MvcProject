@@ -1,27 +1,22 @@
-using System;
+﻿using System;
+using System.Collections.Generic;
+using System.Text;
 using Microsoft.AspNetCore.Mvc;
 using MvcProject.Controllers;
 using Xunit;
 
 namespace MvcProject.Tests
 {
-    public class MvcProjectTests
+    public class ProductControllerTests
     {
         [Fact]
         public void Index_Returns_View_Result()
         {
-            var underTest = new HomeController();
+            var underTest = new ProductController();
 
             var result = underTest.Index();
 
-            Assert.IsType <ViewResult> (result);
+            Assert.IsType<ViewResult>(result);
         }
-
-        [Fact] 
-        public void Home_Index_Linked_To_Product_Index()
-        {
-
-        }
-
     }
 }
