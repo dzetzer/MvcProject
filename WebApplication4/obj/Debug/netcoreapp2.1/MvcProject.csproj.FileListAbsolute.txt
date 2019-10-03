@@ -2,7 +2,6 @@ C:\Users\mmosi\source\repos\MvcProject\WebApplication4\bin\Debug\netcoreapp2.1\M
 C:\Users\mmosi\source\repos\MvcProject\WebApplication4\bin\Debug\netcoreapp2.1\MvcProject.runtimeconfig.json
 C:\Users\mmosi\source\repos\MvcProject\WebApplication4\bin\Debug\netcoreapp2.1\MvcProject.runtimeconfig.dev.json
 C:\Users\mmosi\source\repos\MvcProject\WebApplication4\bin\Debug\netcoreapp2.1\MvcProject.dll
-C:\Users\mmosi\source\repos\MvcProject\WebApplication4\obj\Debug\netcoreapp2.1\MvcProject.csprojAssemblyReference.cache
 C:\Users\mmosi\source\repos\MvcProject\WebApplication4\obj\Debug\netcoreapp2.1\MvcProject.csproj.CoreCompileInputs.cache
 C:\Users\mmosi\source\repos\MvcProject\WebApplication4\obj\Debug\netcoreapp2.1\MvcProject.RazorAssemblyInfo.cache
 C:\Users\mmosi\source\repos\MvcProject\WebApplication4\obj\Debug\netcoreapp2.1\MvcProject.RazorAssemblyInfo.cs
@@ -21,3 +20,4 @@ C:\Users\mmosi\source\repos\MvcProject\WebApplication4\obj\Debug\netcoreapp2.1\R
 C:\Users\mmosi\source\repos\MvcProject\WebApplication4\obj\Debug\netcoreapp2.1\MvcProject.RazorTargetAssemblyInfo.cs
 C:\Users\mmosi\source\repos\MvcProject\WebApplication4\obj\Debug\netcoreapp2.1\MvcProject.Views.pdb
 C:\Users\mmosi\source\repos\MvcProject\WebApplication4\obj\Debug\netcoreapp2.1\MvcProject.csproj.CopyComplete
+C:\Users\mmosi\source\repos\MvcProject\WebApplication4\obj\Debug\netcoreapp2.1\Razor\Views\Product\Index.g.cshtml.cs
