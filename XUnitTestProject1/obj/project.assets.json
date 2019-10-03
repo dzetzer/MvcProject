@@ -5199,6 +5199,7 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v2.1",
         "dependencies": {
+          "Microsoft.NETCore.App": "2.1.0",
           "Microsoft.VisualStudio.Web.CodeGeneration.Design": "2.1.9"
         },
         "compile": {
@@ -8690,6 +8691,7 @@
       "path": "runtime.native.system.data.sqlclient.sni/4.4.0",
       "files": [
         ".nupkg.metadata",
+        ".signature.p7s",
         "LICENSE.TXT",
         "THIRD-PARTY-NOTICES.TXT",
         "runtime.native.system.data.sqlclient.sni.4.4.0.nupkg.sha512",
@@ -8782,6 +8784,7 @@
       "path": "runtime.osx.10.10-x64.runtime.native.system.security.cryptography.apple/4.3.0",
       "files": [
         ".nupkg.metadata",
+        ".signature.p7s",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "runtime.osx.10.10-x64.runtime.native.system.security.cryptography.apple.4.3.0.nupkg.sha512",
@@ -9543,6 +9546,7 @@
       "path": "system.composition.attributedmodel/1.0.31",
       "files": [
         ".nupkg.metadata",
+        ".signature.p7s",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/netstandard1.0/System.Composition.AttributedModel.dll",
@@ -11416,6 +11420,7 @@
       "path": "system.reflection.emit/4.3.0",
       "files": [
         ".nupkg.metadata",
+        ".signature.p7s",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/MonoAndroid10/_._",
@@ -11451,6 +11456,7 @@
       "path": "system.reflection.emit.ilgeneration/4.3.0",
       "files": [
         ".nupkg.metadata",
+        ".signature.p7s",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/MonoAndroid10/_._",
@@ -11495,6 +11501,7 @@
       "path": "system.reflection.emit.lightweight/4.3.0",
       "files": [
         ".nupkg.metadata",
+        ".signature.p7s",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/MonoAndroid10/_._",
@@ -13869,7 +13876,6 @@
       "path": "system.xml.xpath.xdocument/4.3.0",
       "files": [
         ".nupkg.metadata",
-        ".signature.p7s",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/MonoAndroid10/_._",
@@ -14096,23 +14102,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\mmosi\\.nuget\\packages\\": {},
+    "C:\\Users\\drago\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\mmosi\\source\\repos\\MvcProject\\XUnitTestProject1\\MvcProject.Tests.csproj",
+      "projectUniqueName": "C:\\Users\\drago\\source\\repos\\MvcProject\\XUnitTestProject1\\MvcProject.Tests.csproj",
       "projectName": "MvcProject.Tests",
-      "projectPath": "C:\\Users\\mmosi\\source\\repos\\MvcProject\\XUnitTestProject1\\MvcProject.Tests.csproj",
-      "packagesPath": "C:\\Users\\mmosi\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\mmosi\\source\\repos\\MvcProject\\XUnitTestProject1\\obj\\",
+      "projectPath": "C:\\Users\\drago\\source\\repos\\MvcProject\\XUnitTestProject1\\MvcProject.Tests.csproj",
+      "packagesPath": "C:\\Users\\drago\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\drago\\source\\repos\\MvcProject\\XUnitTestProject1\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\mmosi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\drago\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -14125,8 +14131,8 @@
       "frameworks": {
         "netcoreapp2.1": {
           "projectReferences": {
-            "C:\\Users\\mmosi\\source\\repos\\MvcProject\\WebApplication4\\MvcProject.csproj": {
-              "projectPath": "C:\\Users\\mmosi\\source\\repos\\MvcProject\\WebApplication4\\MvcProject.csproj"
+            "C:\\Users\\drago\\source\\repos\\MvcProject\\WebApplication4\\MvcProject.csproj": {
+              "projectPath": "C:\\Users\\drago\\source\\repos\\MvcProject\\WebApplication4\\MvcProject.csproj"
             }
           }
         }
@@ -14149,7 +14155,6 @@
             "version": "[15.9.0, )"
           },
           "Microsoft.NETCore.App": {
-            "suppressParent": "All",
             "target": "Package",
             "version": "[2.1.0, )",
             "autoReferenced": true
