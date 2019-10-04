@@ -20,9 +20,19 @@ namespace MvcProject.Models.Product
         public Product()
         {
         }
-        
-        public Product(string Image, string Title, int ID, string Category, string Manufacter, string Make)
-        {
 
+        public Product(string image, string title, int id, string category,
+            string manufacter, string make, string model, string year, string content)
+        {
+            this.Image = image;
+            this.Title = title;
+            this.Id = id;
+            this.Category = category;
+            this.Manufacturer = manufacter;
+            this.Make = make;
+            this.Model = model;
+            this.Year = year;
+            this.Content = content;
         }
+    }
 }
