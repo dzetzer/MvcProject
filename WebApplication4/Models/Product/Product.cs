@@ -9,7 +9,7 @@ namespace MvcProject.Models.Product
     {
         public string Image { get; set; }
         public string Title { get; set; }
-        public int Id { get; set; }
+        public int ID { get; set; }
         public string Category { get; set; }
         public string Manufacturer { get; set; }
         public string Make { get; set; }
@@ -26,7 +26,7 @@ namespace MvcProject.Models.Product
         {
             this.Image = image;
             this.Title = title;
-            this.Id = id;
+            this.ID = id;
             this.Category = category;
             this.Manufacturer = manufacter;
             this.Make = make;
