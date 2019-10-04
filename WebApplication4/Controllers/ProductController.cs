@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
-using MvcProject.Models.Product;
+using MvcProject.Models;
 using MvcProject.Repositories;
 
 namespace MvcProject.Controllers
@@ -30,4 +30,5 @@ namespace MvcProject.Controllers
 
             return View(model);
         }
+    }
 }

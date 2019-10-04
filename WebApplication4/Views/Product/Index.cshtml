@@ -11,36 +11,18 @@
     <title>Product Page</title>
 </head>
 <body>
-    <h1>Products To Review</h1>
+    <h1>Cars List</h1>
     <a href="/Home/Index">Go Back</a>
     <div>
-        <img src="~/Images/mclaren-570s-spider-design-edition.jpg" alt="McLaren 570 Spyder" style=" height: 200px; width:320px;" />
-        <h2>McLaren 570 Spyder</h2>
-        <section>
-            <h3>Description</h3>
-            <p>
-                Super Car <acronym title="Deoxyribonucleic Acid">"DNA"</acronym> 
-                <ul>
-                    <li>Manufacturer: McLaren Automotive</li>
-                    <li>Make: McLaren </li>
-                    <li>Model: 570 Spyder</li>
-                    <li>Production Years:2015-current</li>
-                    <li>Country of Origin: Britain</li>
-                    <li>Class: Sports Car</li>
-                </ul>
-    
-            </p>
-        </section>
         
-        <section>
-            <h3>Ratings</h3>
-            <p></p>
-        </section>
+        @foreach (var cars in Model)
+        {
+            <p><a href="/Product/Details/@cars.ID">Title <span> @cars.Title</span></a></p>
+            <img src="@cars.Image" alt="McLaren 570 Spyder" style=" height: 200px; width:320px;" />
+            <hr/>
+        }
 
-        <section>
-            <h3>Reviews</h3>
-            <p>Really Fast</p>
-        </section>
+
     </div>
     <footer>&copy;Car Reviews 2019</footer>
 </body>

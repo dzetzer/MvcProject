@@ -1,4 +1,4 @@
-﻿using MvcProject.Models.Product;
+﻿using MvcProject.Models;
 using System;
 using System.Collections.Generic;
 using System.Linq;

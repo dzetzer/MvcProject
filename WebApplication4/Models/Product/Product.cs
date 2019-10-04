@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace MvcProject.Models.Product
+namespace MvcProject.Models
 {
     public class Product
     {

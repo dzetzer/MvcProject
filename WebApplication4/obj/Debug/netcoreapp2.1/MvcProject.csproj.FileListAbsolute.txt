@@ -46,3 +46,4 @@ C:\Users\drago\source\repos\MvcProject\WebApplication4\obj\Debug\netcoreapp2.1\M
 C:\Users\drago\source\repos\MvcProject\WebApplication4\obj\Debug\netcoreapp2.1\MvcProject.dll
 C:\Users\drago\source\repos\MvcProject\WebApplication4\obj\Debug\netcoreapp2.1\MvcProject.pdb
 C:\Users\drago\source\repos\MvcProject\WebApplication4\obj\Debug\netcoreapp2.1\MvcProject.csproj.CopyComplete
+C:\Users\drago\source\repos\MvcProject\WebApplication4\obj\Debug\netcoreapp2.1\Razor\Views\Product\Details.g.cshtml.cs
