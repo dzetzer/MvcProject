@@ -14102,23 +14102,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\drago\\.nuget\\packages\\": {},
+    "C:\\Users\\WeCanCodeIT\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\drago\\source\\repos\\MvcProject\\XUnitTestProject1\\MvcProject.Tests.csproj",
+      "projectUniqueName": "C:\\Users\\WeCanCodeIT\\source\\repos\\Module Three-MVC\\MVC Project\\MvcProject\\XUnitTestProject1\\MvcProject.Tests.csproj",
       "projectName": "MvcProject.Tests",
-      "projectPath": "C:\\Users\\drago\\source\\repos\\MvcProject\\XUnitTestProject1\\MvcProject.Tests.csproj",
-      "packagesPath": "C:\\Users\\drago\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\drago\\source\\repos\\MvcProject\\XUnitTestProject1\\obj\\",
+      "projectPath": "C:\\Users\\WeCanCodeIT\\source\\repos\\Module Three-MVC\\MVC Project\\MvcProject\\XUnitTestProject1\\MvcProject.Tests.csproj",
+      "packagesPath": "C:\\Users\\WeCanCodeIT\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\WeCanCodeIT\\source\\repos\\Module Three-MVC\\MVC Project\\MvcProject\\XUnitTestProject1\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\drago\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\WeCanCodeIT\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -14131,8 +14131,8 @@
       "frameworks": {
         "netcoreapp2.1": {
           "projectReferences": {
-            "C:\\Users\\drago\\source\\repos\\MvcProject\\WebApplication4\\MvcProject.csproj": {
-              "projectPath": "C:\\Users\\drago\\source\\repos\\MvcProject\\WebApplication4\\MvcProject.csproj"
+            "C:\\Users\\WeCanCodeIT\\source\\repos\\Module Three-MVC\\MVC Project\\MvcProject\\WebApplication4\\MvcProject.csproj": {
+              "projectPath": "C:\\Users\\WeCanCodeIT\\source\\repos\\Module Three-MVC\\MVC Project\\MvcProject\\WebApplication4\\MvcProject.csproj"
             }
           }
         }

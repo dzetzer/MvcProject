@@ -14,7 +14,7 @@ namespace MvcProject.Repositories
         {
             carsList = new List<Product>()
             {
-            new Product("~/Images/mclaren-570s-spider-design-edition.jpg", "McLaren 570 Spyder", 1, "Sports Car",
+            new Product("/Images/mclaren-570s-spider-design-edition.jpg", "McLaren 570 Spyder", 1, "Sports Car",
                 "McLaren Automotives", "McClaren", "570 Spyder", "2015 - Present", "This Car Is Super Fast"),
             new Product("image", "Ram 1500", 2, "Pickup Truck", "Fiat Chrysler Automobiles", 
                 "Ram", "1500", "1981 - Present", "Guts, Glory, Ram"),
