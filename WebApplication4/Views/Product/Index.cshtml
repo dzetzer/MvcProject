@@ -11,13 +11,13 @@
     <title>Product Page</title>
 </head>
 <body>
-    <h1>Cars Review</h1>
+    <h1>Cars Reviews</h1>
     @*<a href="/Home/Index">Go Back</a>*@
     <div>
         
         @foreach (var cars in Model)
         {
-            <p><a href="/Product/Details/@cars.ID">Title <span> @cars.Title</span></a></p>
+            <p><a href="/Product/Details/@cars.ID"><span> @cars.Title</span></a></p>
             <img src="@cars.Image" alt="McLaren 570 Spyder" style=" height: 200px; width:340px;" />
             <hr/>
         }
