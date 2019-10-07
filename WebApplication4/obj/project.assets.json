@@ -12534,24 +12534,27 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\drago\\.nuget\\packages\\": {},
+    "C:\\Users\\OmniViscious\\.nuget\\packages\\": {},
+    "C:\\Microsoft\\Xamarin\\NuGet\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\drago\\source\\repos\\MvcProject\\WebApplication4\\MvcProject.csproj",
+      "projectUniqueName": "C:\\Users\\OmniViscious\\source\\repos\\MvcProject\\WebApplication4\\MvcProject.csproj",
       "projectName": "MvcProject",
-      "projectPath": "C:\\Users\\drago\\source\\repos\\MvcProject\\WebApplication4\\MvcProject.csproj",
-      "packagesPath": "C:\\Users\\drago\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\drago\\source\\repos\\MvcProject\\WebApplication4\\obj\\",
+      "projectPath": "C:\\Users\\OmniViscious\\source\\repos\\MvcProject\\WebApplication4\\MvcProject.csproj",
+      "packagesPath": "C:\\Users\\OmniViscious\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\OmniViscious\\source\\repos\\MvcProject\\WebApplication4\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
+        "C:\\Microsoft\\Xamarin\\NuGet\\",
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\drago\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "C:\\Users\\OmniViscious\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp2.1"
