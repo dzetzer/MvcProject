@@ -1,0 +1,55 @@
+* {
+    font-family: sans-serif;
+    line-height: 1.618em;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 16px;
+    margin-top: 3em;
+}
+
+header {
+    padding: 2em 0;
+}
+
+h1, h2, h3 {
+    color: #666;
+}
+
+header,
+main,
+footer {
+    margin: 0 auto;
+    max-width: 800px;
+}
+
+header h1 {
+font-size: 3em;
+}
+
+
+footer {
+    margin-top: 2em;
+    margin-bottom: 1em;
+    background: #666;
+    color: #fff;
+    padding: 1em;
+    text-align: center;
+}
+
+#Products {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+    grid-column-gap: 1em;
+}
+section {
+    margin: 1em 0;
+    padding-top: 1em;
+    min-height: 2em;
+    font-size: 1.3em;
+    border-spacing: 10px;
+}

@@ -9,6 +9,7 @@
 <head>
     <meta name="viewport" content="width=device-width" />
     <title>Product Page</title>
+    <link rel="stylesheet" type="text/css" href="~/Styles/Prod.css" />
 </head>
 <body>
     <h1>Cars Reviews</h1>
@@ -17,9 +18,13 @@
         
         @foreach (var cars in Model)
         {
-            <p><a href="/Product/Details/@cars.ID"><span> @cars.Title</span></a></p>
-            <img src="@cars.Image" alt="McLaren 570 Spyder" style=" height: 200px; width:340px;" />
-            <hr/>
+        <section id="Products">
+            <article> 
+                <p><a href="/Product/Details/@cars.ID">@cars.Title</a></p>
+                <img src="@cars.Image" alt="McLaren 570 Spyder" style=" height: 200px; width:340px;" />
+            </article>
+        </section>
+
         }
 
 
