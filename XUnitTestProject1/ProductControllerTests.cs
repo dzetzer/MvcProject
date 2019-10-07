@@ -9,14 +9,14 @@ namespace MvcProject.Tests
 {
     public class ProductControllerTests
     {
-        [Fact]
-        public void Index_Returns_View_Result()
-        {
-            var underTest = new ProductController();
+        //[Fact]
+        //public void Index_Returns_View_Result()
+        //{
+        //    var underTest = new ProductController();
 
-            var result = underTest.Index();
+        //    var result = underTest.Index();
 
-            Assert.IsType<ViewResult>(result);
-        }
+        //    Assert.IsType<ViewResult>(result);
+        //}
     }
 }
