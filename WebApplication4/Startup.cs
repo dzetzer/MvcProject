@@ -30,7 +30,7 @@ namespace WebApplication4
             }
             else
             {
-                app.UseExceptionHandler("/Home/Error");
+                app.UseExceptionHandler("/Product/Error");
                 app.UseHsts();
             }
 
@@ -40,7 +40,7 @@ namespace WebApplication4
             {
                 routes.MapRoute(
                     name: "default",
-                    template: "{controller=Home}/{action=Index}/{id?}");
+                    template: "{controller=Product}/{action=Index}/{id?}");
             });
         }
     }
