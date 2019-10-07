@@ -1,7 +1,7 @@
 # MvcProject
 
 
-Welcome to our Cars Reviews Site!
+Welcome to our Vehicle Reviews Site!
 
 *Here's how to get started...*
 <br>1. Browse our list of cars as long as you like, or exit the website at any time by closing the window from the navigation bar at the top right.
