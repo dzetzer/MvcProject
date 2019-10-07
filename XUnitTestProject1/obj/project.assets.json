@@ -14102,27 +14102,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\OmniViscious\\.nuget\\packages\\": {},
-    "C:\\Microsoft\\Xamarin\\NuGet\\": {},
+    "C:\\Users\\drago\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\OmniViscious\\source\\repos\\MvcProject\\XUnitTestProject1\\MvcProject.Tests.csproj",
+      "projectUniqueName": "C:\\Users\\drago\\source\\repos\\MvcProject\\XUnitTestProject1\\MvcProject.Tests.csproj",
       "projectName": "MvcProject.Tests",
-      "projectPath": "C:\\Users\\OmniViscious\\source\\repos\\MvcProject\\XUnitTestProject1\\MvcProject.Tests.csproj",
-      "packagesPath": "C:\\Users\\OmniViscious\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\OmniViscious\\source\\repos\\MvcProject\\XUnitTestProject1\\obj\\",
+      "projectPath": "C:\\Users\\drago\\source\\repos\\MvcProject\\XUnitTestProject1\\MvcProject.Tests.csproj",
+      "packagesPath": "C:\\Users\\drago\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\drago\\source\\repos\\MvcProject\\XUnitTestProject1\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "C:\\Microsoft\\Xamarin\\NuGet\\",
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\OmniViscious\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        "C:\\Users\\drago\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp2.1"
@@ -14134,8 +14131,8 @@
       "frameworks": {
         "netcoreapp2.1": {
           "projectReferences": {
-            "C:\\Users\\OmniViscious\\source\\repos\\MvcProject\\WebApplication4\\MvcProject.csproj": {
-              "projectPath": "C:\\Users\\OmniViscious\\source\\repos\\MvcProject\\WebApplication4\\MvcProject.csproj"
+            "C:\\Users\\drago\\source\\repos\\MvcProject\\WebApplication4\\MvcProject.csproj": {
+              "projectPath": "C:\\Users\\drago\\source\\repos\\MvcProject\\WebApplication4\\MvcProject.csproj"
             }
           }
         }
