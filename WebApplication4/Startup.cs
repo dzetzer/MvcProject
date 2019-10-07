@@ -6,6 +6,8 @@ using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Http;
 using Microsoft.Extensions.DependencyInjection;
+using MvcProject.Models;
+using MvcProject.Repositories;
 
 namespace WebApplication4
 {
@@ -15,6 +17,7 @@ namespace WebApplication4
         // For more information on how to configure your application, visit https://go.microsoft.com/fwlink/?LinkID=398940
         public void ConfigureServices(IServiceCollection services)
         {
+            services.AddScoped<IRepository<Product>, ProductRepository>();
             services.AddMvc();
         }
 
@@ -25,6 +28,11 @@ namespace WebApplication4
             {
                 app.UseDeveloperExceptionPage();
             }
+            else
+            {
+                app.UseExceptionHandler("/Product/Error");
+                app.UseHsts();
+            }
 
             app.UseStaticFiles();
 
@@ -32,7 +40,7 @@ namespace WebApplication4
             {
                 routes.MapRoute(
                     name: "default",
-                    template: "{controller=Home}/{action=Index}/{id?}");
+                    template: "{controller=Product}/{action=Index}/{id?}");
             });
         }
     }
