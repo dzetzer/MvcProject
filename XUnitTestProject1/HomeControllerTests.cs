@@ -14,7 +14,7 @@ namespace MvcProject.Tests
 
             var result = underTest.Index();
 
-            Assert.IsType <ViewResult> (result);
+            Assert.IsType<ViewResult>(result);
         }
 
         [Fact] 
