@@ -16,16 +16,16 @@
     @*<a href="/Home/Index">Go Back</a>*@
     <div>
         
+        <section id="Products">
         @foreach (var cars in Model)
         {
-        <section id="Products">
             <article> 
                 <p><a href="/Product/Details/@cars.ID">@cars.Title</a></p>
-                <img src="@cars.Image" alt="McLaren 570 Spyder" style=" height: 200px; width:340px;" />
+                <img src="@cars.Image" alt="McLaren 570 Spyder" style=" height: 120px; width:260px;" />
             </article>
-        </section>
 
         }
+        </section>
 
 
     </div>

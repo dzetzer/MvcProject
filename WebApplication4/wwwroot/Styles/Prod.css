@@ -20,7 +20,7 @@ h1, h2, h3 {
 }
 
 header,
-main,
+section,
 footer {
     margin: 0 auto;
     max-width: 800px;
@@ -43,10 +43,11 @@ footer {
 #Products {
     display: grid;
     grid-template-columns: repeat(5, 1fr);
-    grid-template-rows: repeat(1, 1fr);
-    grid-column-gap: 1em;
+    grid-template-rows: auto;
+    grid-column-gap: .5em;
 }
 section {
+    padding: 1rem 1rem;
     margin: 1em 0;
     padding-top: 1em;
     min-height: 2em;
