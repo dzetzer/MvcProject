@@ -19,17 +19,11 @@
         <section id="Products">
         @foreach (var cars in Model)
         {
-<<<<<<< HEAD
-            <p><a href="/Product/Details/@cars.ID"><span> @cars.Title</span></a></p>
-            <img src="@cars.Image" alt="McLaren 570 Spyder" style=" height: 200px; width:320px;" />
-            <hr/>
-=======
+
             <article> 
                 <p><a href="/Product/Details/@cars.ID">@cars.Title</a></p>
                 <img src="@cars.Image" alt="McLaren 570 Spyder" style=" height: 120px; width:260px;" />
             </article>
-
->>>>>>> Trevor
         }
         </section>
 
