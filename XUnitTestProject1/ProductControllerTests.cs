@@ -11,15 +11,23 @@ namespace MvcProject.Tests
 {
     public class ProductControllerTests
     {
+<<<<<<< HEAD
         IRepository<Product> productRepo;
 
         [Fact]
         public void Index_Returns_View_Result()
         {
             var underTest = new ProductController(productRepo);
+=======
+        //[Fact]
+        //public void Index_Returns_View_Result()
+        //{
+        //    var underTest = new ProductController();
+>>>>>>> Trevor
 
-            var result = underTest.Index();
+        //    var result = underTest.Index();
 
+<<<<<<< HEAD
             Assert.IsType<ViewResult>(result);
         }
 
@@ -32,5 +40,9 @@ namespace MvcProject.Tests
 
             Assert.IsType<Product>(result.Model);
         }
+=======
+        //    Assert.IsType<ViewResult>(result);
+        //}
+>>>>>>> Trevor
     }
 }
