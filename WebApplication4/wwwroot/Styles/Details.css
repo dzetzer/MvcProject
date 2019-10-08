@@ -1,0 +1,42 @@
+* {
+    font-family: sans-serif;
+    line-height: 1.618em;
+    margin: 0;
+    padding: 0;
+}
+a {
+    padding: 2rem;
+}
+img{
+    border-radius: 1rem;
+}
+html {
+    font-size: 16px;
+    margin-top: 3em;
+}
+h1, h2, h3 {
+    color: #666;
+}
+h1 {
+    font-size: 3em;
+}
+footer {
+    margin-top: 2em;
+    margin-bottom: 1em;
+    background: #666;
+    color: #fff;
+    padding: 1em;
+    text-align: center;
+}
+div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 2rem;
+}
+footer {
+    display: grid;
+    justify-content: center;
+    margin: 0 auto;
+    max-width: 800px;
+}
