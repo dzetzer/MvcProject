@@ -6,6 +6,7 @@ using MvcProject.Controllers;
 using MvcProject.Models;
 using MvcProject.Repositories;
 using Xunit;
+using System.Linq;
 
 namespace MvcProject.Tests
 {
@@ -35,5 +36,16 @@ namespace MvcProject.Tests
             Assert.IsType<Product>(result.Model);
         }
 
+        [Fact]
+        public void Count_Starts_At_Zero()
+        {
+            var db = new VehicleContext();
+
+            var underTest = new ProductRepository(db);
+
+            var count = underTest.Count();
+
+            Assert.Equal(0, count);
+        }
     }
 }
