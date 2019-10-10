@@ -31,7 +31,7 @@ namespace MvcProject
                 {
                     ID = 1,
                     Image = "/Images/mclaren-570s-spider-design-edition.jpg",
-                    Title = "MycLaren 570 Spyder",
+                    Title = "McLaren 570 Spyder",
                     Category = "Sports Car",
                     Manufacturer = "McLaren Automotives",
                     Make = "McLaren",
@@ -93,7 +93,7 @@ namespace MvcProject
                 {
                     ID = 1,
                     Image = "/Images/mclaren-570s-spider-design-edition.jpg",
-                    Title = "MycLaren 570 Spyder",
+                    Title = "McLaren 570 Spyder",
                     Content = "This Car Is Super Fast",
                     Rating = 5,
                     UserName = "SpyderMan",
@@ -104,7 +104,7 @@ namespace MvcProject
                 {
                     ID = 2,
                     Image = "/Images/mclaren-570s-spider-design-edition.jpg",
-                    Title = "MycLaren 570 Spyder",
+                    Title = "McLaren 570 Spyder",
                     Content = "Very Expensive",
                     Rating = 1,
                     UserName = "Janitor",

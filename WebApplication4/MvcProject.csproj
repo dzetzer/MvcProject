@@ -10,6 +10,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <Folder Include="Views\Review\NewFolder\" />
     <Folder Include="wwwroot\Images\" />
   </ItemGroup>
 

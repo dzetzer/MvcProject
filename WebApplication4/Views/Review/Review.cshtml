@@ -13,17 +13,17 @@
 
 </head>
 <body>
-    <h1>Reviews</h1>
+    <h1>Reviews @*@Model.Title*@</h1>
 
     <div>
 
         <section id="Reviews">
+                    @*<img src="@Model.Image" alt=reviews.Title style=" height: 120px; width:200px;" />*@
             @foreach (var reviews in Model)
             {
 
                 <article>
-                    <p>@reviews.Title</p>
-                    <img src="@reviews.Image" alt=reviews.Title style=" height: 120px; width:200px;" />
+                    <p>Title: @reviews.Title</p>
                     <p>User Name: @reviews.UserName</p>
                     <p>Rating: @reviews.Rating</p>
                     <p>Review: @reviews.Content</p>

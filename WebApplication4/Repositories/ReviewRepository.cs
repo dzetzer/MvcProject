@@ -32,6 +32,8 @@ namespace MvcProject.Repositories
                    where r.ProductID == productID
                    select new Review
                    {
+                       Title = r.Title,
+                       Image = r.Image,
                        UserName = r.UserName,
                        Rating = r.Rating,
                        Content = r.Content,
