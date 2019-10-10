@@ -17,5 +17,25 @@ namespace MvcProject.Models
         public virtual int ProductID { get; set; }
 
         public virtual Product Product { get; set; }
+
+
+        public Review()
+        {
+        }
+
+        public Review(string image, string title, int id, string content,
+            int rating, string userName/*, int productID*/)
+        {
+            this.Title = title;
+            this.Image = image;
+            this.ID = id;
+            this.Content = content;
+            this.Rating = rating;
+            this.UserName = userName;
+
+            //this.ProductID = productID;
+        }
     }
+
+
 }

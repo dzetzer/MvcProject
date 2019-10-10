@@ -20,10 +20,25 @@ namespace MvcProject.Repositories
             return db.Reviews.Count();
         }
 
+
         public IEnumerable<Review> GetAll()
         {
             return db.Reviews;
         }
+
+        public IEnumerable<Review> GetByProductID(int productID)
+        {
+            return from r in db.Reviews
+                   where r.ProductID == productID
+                   select new Review
+                   {
+                       UserName = r.UserName,
+                       Rating = r.Rating,
+                       Content = r.Content,
+                   };
+
+        }
+
 
         public Review GetByID(int id)
         {

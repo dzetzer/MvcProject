@@ -12,23 +12,23 @@ namespace MvcProject.Controllers
     {
         IRepository<Review> reviewRepo;
 
-        public ReviewController(IRepository<Review> productRepo)
+        public ReviewController(IRepository<Review> reviewRepo)
         {
-            this.reviewRepo = productRepo;
+            this.reviewRepo = reviewRepo;
         }
 
-        public ViewResult Index()
+        public ViewResult Review(int productID)
         {
-            var model = reviewRepo.GetAll();
+            var model = reviewRepo.GetByProductID(productID);
 
             return View(model);
         }
 
-        public ViewResult Details(int id)
-        {
-            var model = reviewRepo.GetByID(id);
+        //public ViewResult Details(int id)
+        //{
+        //    var model = reviewRepo.GetByID(id);
 
-            return View(model);
-        }
+        //    return View(model);
+        //}
     }
 }

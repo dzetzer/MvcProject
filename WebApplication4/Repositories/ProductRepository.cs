@@ -42,6 +42,11 @@ namespace MvcProject.Repositories
             return db.Products.Single(p => p.ID == id);
         }
 
+        public IEnumerable<Product> GetByProductID(int id)
+        {
+            throw new NotImplementedException();
+        }
+
         public void Save()
         {
             db.SaveChanges();

@@ -15,6 +15,10 @@ namespace MvcProject.Models
         public string Make { get; set; }
         public string Model { get; set; }
         public string Year { get; set; }
+
+
+        public virtual ICollection<Review> Reviews { get; set; }
+
         //public string Content { get; set; }
 
         //public virtual int ReviewID { get; set; }

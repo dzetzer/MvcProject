@@ -1,0 +1,39 @@
+﻿@model IEnumerable<MvcProject.Models.Review>
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Reviews</title>
+    <link rel="stylesheet" href="~/Styles/DetailsStyle.css" />
+
+</head>
+<body>
+    <h1>Reviews</h1>
+
+    <div>
+
+        <section id="Reviews">
+            @foreach (var reviews in Model)
+            {
+
+                <article>
+                    <p>@reviews.Title</p>
+                    <img src="@reviews.Image" alt=reviews.Title style=" height: 120px; width:200px;" />
+                    <p>User Name: @reviews.UserName</p>
+                    <p>Rating: @reviews.Rating</p>
+                    <p>Review: @reviews.Content</p>
+                    <hr />
+                </article>
+            }
+        </section>
+    @*<a href="/Product/Details/">Details</a>*@
+    </div>
+    <a href="/Product/Index">Go Back</a>
+    <footer><h6>&copy;Vehicle Reviews 2019</h6></footer>
+</body>
+</html>
