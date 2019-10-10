@@ -2,15 +2,17 @@
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using MvcProject;
 
 namespace MvcProject.Migrations
 {
     [DbContext(typeof(VehicleContext))]
-    partial class VehicleContextModelSnapshot : ModelSnapshot
+    [Migration("20191010142805_ThirdMigration")]
+    partial class ThirdMigration
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -45,11 +47,11 @@ namespace MvcProject.Migrations
                     b.ToTable("Products");
 
                     b.HasData(
-                        new { ID = 1, Category = "Sports Car", Image = "/Images/mclaren-570s-spider-design-edition.jpg", Make = "McLaren", Manufacturer = "McLaren Automotives", Model = "570 Spyder", Title = "MycLaren 570 Spyder", Year = "2015 - Present" },
-                        new { ID = 2, Category = "Pick Up Truck", Image = "/Images/ram.jpg", Make = "Ram", Manufacturer = "Fiat Chrysler Automobiles", Model = "1500", Title = "Ram 1500", Year = "1981 - Present" },
-                        new { ID = 3, Category = "Sports Car", Image = "/Images/mustang.jpg", Make = "Ford", Manufacturer = "Ford Motor Company", Model = "Mustang", Title = "Ford Mustang", Year = "1964 - Present" },
-                        new { ID = 4, Category = " Muscle Car", Image = "/Images/camero.jpg", Make = "Chevrolet", Manufacturer = "General Motors", Model = "Camaro", Title = "Chevy Camaro", Year = "1966 - Present" },
-                        new { ID = 5, Category = "90's Ricer Dream", Image = "/Images/prelude.jpg", Make = "Honda", Manufacturer = "Honda Motor Company Ltd.", Model = "Prelude", Title = "Honda Prelude", Year = "1978 - 2001" }
+                        new { ID = 1, Category = "Sports Car", Make = "McLaren", Manufacturer = "McLaren Automotives", Model = "570 Spyder", Title = "MycLaren 570 Spyder", Year = "2015 - Present" },
+                        new { ID = 2, Category = "Pick Up Truck", Make = "Ram", Manufacturer = "Fiat Chrysler Automobiles", Model = "1500", Title = "Ram 1500", Year = "1981 - Present" },
+                        new { ID = 3, Category = "Sports Car", Make = "Ford", Manufacturer = "Ford Motor Company", Model = "Mustang", Title = "Ford Mustang", Year = "1964 - Present" },
+                        new { ID = 4, Category = " Muscle Car", Make = "Chevrolet", Manufacturer = "General Motors", Model = "Camaro", Title = "Chevy Camaro", Year = "1966 - Present" },
+                        new { ID = 5, Category = "90's Ricer Dream", Make = "Honda", Manufacturer = "Honda Motor Company Ltd.", Model = "Prelude", Title = "Honda Prelude", Year = "1978 - 2001" }
                     );
                 });
 

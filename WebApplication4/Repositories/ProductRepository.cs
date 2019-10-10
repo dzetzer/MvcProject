@@ -20,10 +20,32 @@ namespace MvcProject.Repositories
             return db.Products.Count();
         }
 
+        public void Create(Product product)
+        {
+            db.Products.Add(product);
+            db.SaveChanges();
+        }
 
+        public void Delete(Product product)
+        {
+            db.Products.Remove(product);
+            db.SaveChanges();
+        }
 
+        public IEnumerable<Product> GetAll()
+        {
+            return carsList;
+        }
 
+        public Product GetByID(int id)
+        {
+            return carsList.Single(p => p.ID == id);
+        }
 
+        public void Save()
+        {
+            db.SaveChanges();
+        }
 
         public List<Product> carsList;
 
@@ -45,14 +67,5 @@ namespace MvcProject.Repositories
 
         }
 
-        public IEnumerable<Product> GetAll()
-        {
-            return carsList;
-        }
-
-        public Product GetByID(int id)
-        {
-            return carsList.Single(p => p.ID == id);
-        }
     }
 }
