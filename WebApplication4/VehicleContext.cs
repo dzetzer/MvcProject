@@ -92,6 +92,8 @@ namespace MvcProject
                 new Review()
                 {
                     ID = 1,
+                    Image = "/Images/mclaren-570s-spider-design-edition.jpg",
+                    Title = "MycLaren 570 Spyder",
                     Content = "This Car Is Super Fast",
                     Rating = 5,
                     UserName = "SpyderMan",
@@ -101,6 +103,8 @@ namespace MvcProject
                 new Review()
                 {
                     ID = 2,
+                    Image = "/Images/mclaren-570s-spider-design-edition.jpg",
+                    Title = "MycLaren 570 Spyder",
                     Content = "Very Expensive",
                     Rating = 1,
                     UserName = "Janitor",
@@ -110,6 +114,8 @@ namespace MvcProject
                 new Review()
                 {
                     ID = 3,
+                    Image = "/Images/ram.jpg",
+                    Title = "Ram 1500",
                     Content = "Guts, Glory, Ram",
                     Rating = 3,
                     UserName = "Truck Fan",
@@ -119,6 +125,8 @@ namespace MvcProject
                 new Review()
                 {
                     ID = 4,
+                    Image = "/Images/ram.jpg",
+                    Title = "Ram 1500",
                     Content = "It's a good truck. Good gas mileage.",
                     Rating = 3,
                     UserName = "Tater.Mpeg",
@@ -128,6 +136,8 @@ namespace MvcProject
                 new Review()
                 {
                     ID = 5,
+                    Image = "/Images/mustang.jpg",
+                    Title = "Ford Mustang",
                     Content = "Unparralled Performace",
                     Rating = 4,
                     UserName = "Horse Breeder",
@@ -137,6 +147,8 @@ namespace MvcProject
                 new Review()
                 {
                     ID = 6,
+                    Image = "/Images/mustang.jpg",
+                    Title = "Ford Mustang",
                     Content = "Doesn't fit taller people.",
                     Rating = 2,
                     UserName = "Too Tall For Life",
@@ -146,6 +158,8 @@ namespace MvcProject
                 new Review()
                 {
                     ID = 7,
+                    Image = "/Images/camero.jpg",
+                    Title = "Chevy Camaro",
                     Content = "This car puts the thrill in every ride",
                     Rating = 4,
                     UserName = "Bumblebee",
@@ -156,6 +170,8 @@ namespace MvcProject
                 new Review()
                 {
                     ID = 8,
+                    Image = "/Images/camero.jpg",
+                    Title = "Chevy Camaro",
                     Content = "This car has transformed my life.",
                     Rating = 5,
                     UserName = "Optimus Prime",
@@ -165,6 +181,8 @@ namespace MvcProject
                 new Review()
                 {
                     ID = 9,
+                    Image = "/Images/prelude.jpg",
+                    Title = "Honda Prelude",
                     Content = "Sporty Coupe!",
                     Rating = 3,
                     UserName = "Father Time",
@@ -174,6 +192,8 @@ namespace MvcProject
                 new Review()
                 {
                     ID = 10,
+                    Image = "/Images/prelude.jpg",
+                    Title = "Honda Prelude",
                     Content = "This was my first car. It brings back memories.",
                     Rating = 5,
                     UserName = "Nostalgia",

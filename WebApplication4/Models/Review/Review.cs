@@ -7,6 +7,8 @@ namespace MvcProject.Models
 {
     public class Review
     {
+        public string Image { get; set; }
+        public string Title { get; set; }
         public int ID { get; set; }
         public string Content { get; set; }
         public int Rating { get; set; }

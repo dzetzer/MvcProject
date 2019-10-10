@@ -19,6 +19,7 @@ namespace WebApplication4
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddScoped<IRepository<Product>, ProductRepository>();
+            services.AddScoped<IRepository<Review>, ReviewRepository>();
             services.AddMvc();
             services.AddDbContext<VehicleContext>();
         }
