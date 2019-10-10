@@ -19,8 +19,8 @@ namespace MvcProject.Controllers
 
         public ViewResult Review(int id)
         {
-            var model = reviewRepo.GetByProductID(id);
-
+            //var model = reviewRepo.GetByProductID(id);
+            var model = reviewRepo.GetAll();
             return View(model);
         }
 

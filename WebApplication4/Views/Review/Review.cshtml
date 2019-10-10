@@ -13,24 +13,23 @@
 
 </head>
 <body>
-    <h1>Reviews @*@Model.Title*@</h1>
+    <h1>Reviews @Model.First().Product.Title</h1>
 
     <div>
 
         <section id="Reviews">
-                    @*<img src="@Model.Image" alt=reviews.Title style=" height: 120px; width:200px;" />*@
+                    <img src="@Model.First().Product.Image" alt=reviews.Title style=" height: 120px; width:200px;" />
             @foreach (var reviews in Model)
             {
 
-                <article>
-                    <p>Title: @reviews.Title</p>
-                    <p>@reviews.Image</p>
-                    <p>User Name: @reviews.UserName</p>
-                    <p>Rating: @reviews.Rating</p>
-                    <p>Review: @reviews.Content</p>
-                    <hr />
-                </article>
+            <article>
+                <p>User Name: @reviews.UserName</p>
+                <p>Rating: @reviews.Rating</p>
+                <p>Review: @reviews.Content</p>
+                <hr />
+            </article>
             }
+                <a href="/Product/Details/@Model.First().ProductID">Details</a>
         </section>
     @*<a href="/Product/Details/">Details</a>*@
     </div>
