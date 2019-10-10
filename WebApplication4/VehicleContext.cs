@@ -9,7 +9,10 @@ namespace MvcProject
 {
     public class VehicleContext : DbContext
     {
-        public DbSet <Review> Reviews { get; set; }
+        public DbSet<Product> Products { get; set; }
+
+        public DbSet<Review> Reviews { get; set; }
+
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {

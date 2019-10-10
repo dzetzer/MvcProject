@@ -8,6 +8,23 @@ namespace MvcProject.Repositories
 {
     public class ProductRepository : IRepository<Product>
     {
+        private VehicleContext db;
+
+        public ProductRepository(VehicleContext db)
+        {
+            this.db = db;
+        }
+
+        public int Count()
+        {
+            return db.Products.Count();
+        }
+
+
+
+
+
+
         public List<Product> carsList;
 
         public ProductRepository()
