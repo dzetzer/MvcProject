@@ -38,7 +38,7 @@ namespace MvcProject
                     Model = "570 Spyder",
                     Year = "2015 - Present",
                 },
-                
+
                 new Product()
                 {
                     ID = 2,
@@ -87,7 +87,102 @@ namespace MvcProject
                     Year = "1978 - 2001",
                 }
                 );
-                
+
+            modelBuilder.Entity<Review>().HasData(
+                new Review()
+                {
+                    ID = 1,
+                    Content = "This Car Is Super Fast",
+                    Rating = 5,
+                    UserName = "SpyderMan",
+                    ProductID = 1
+                },
+
+                new Review()
+                {
+                    ID = 2,
+                    Content = "Very Expensive",
+                    Rating = 1,
+                    UserName = "Janitor",
+                    ProductID = 1
+                },
+
+                new Review()
+                {
+                    ID = 3,
+                    Content = "Guts, Glory, Ram",
+                    Rating = 3,
+                    UserName = "Truck Fan",
+                    ProductID = 2
+                },
+
+                new Review()
+                {
+                    ID = 4,
+                    Content = "It's a good truck. Good gas mileage.",
+                    Rating = 3,
+                    UserName = "Tater.Mpeg",
+                    ProductID = 2
+                },
+
+                new Review()
+                {
+                    ID = 5,
+                    Content = "Unparralled Performace",
+                    Rating = 4,
+                    UserName = "Horse Breeder",
+                    ProductID = 3
+                },
+
+                new Review()
+                {
+                    ID = 6,
+                    Content = "Doesn't fit taller people.",
+                    Rating = 2,
+                    UserName = "Too Tall For Life",
+                    ProductID = 3
+                },
+
+                new Review()
+                {
+                    ID = 7,
+                    Content = "This car puts the thrill in every ride",
+                    Rating = 4,
+                    UserName = "Bumblebee",
+                    ProductID = 4
+                },
+
+
+                new Review()
+                {
+                    ID = 8,
+                    Content = "This car has transformed my life.",
+                    Rating = 5,
+                    UserName = "Optimus Prime",
+                    ProductID = 4
+                },
+
+                new Review()
+                {
+                    ID = 9,
+                    Content = "Sporty Coupe!",
+                    Rating = 3,
+                    UserName = "Father Time",
+                    ProductID = 5
+                },
+
+                new Review()
+                {
+                    ID = 10,
+                    Content = "This was my first car. It brings back memories.",
+                    Rating = 5,
+                    UserName = "Nostalgia",
+                    ProductID = 5
+                }
+                );
+
+            base.OnModelCreating(modelBuilder);
+;                
         }
     }
 }

@@ -2,15 +2,17 @@
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using MvcProject;
 
 namespace MvcProject.Migrations
 {
     [DbContext(typeof(VehicleContext))]
-    partial class VehicleContextModelSnapshot : ModelSnapshot
+    [Migration("20191010151330_ReviewMigration")]
+    partial class ReviewMigration
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -25,6 +27,8 @@ namespace MvcProject.Migrations
                         .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
 
                     b.Property<string>("Category");
+
+                    b.Property<string>("Content");
 
                     b.Property<string>("Image");
 
@@ -59,38 +63,21 @@ namespace MvcProject.Migrations
 
                     b.Property<string>("Content");
 
-                    b.Property<int>("ProductID");
-
                     b.Property<int>("Rating");
 
                     b.Property<string>("UserName");
 
                     b.HasKey("ID");
 
-                    b.HasIndex("ProductID");
-
                     b.ToTable("Reviews");
 
                     b.HasData(
-                        new { ID = 1, Content = "This Car Is Super Fast", ProductID = 1, Rating = 5, UserName = "SpyderMan" },
-                        new { ID = 2, Content = "Very Expensive", ProductID = 1, Rating = 1, UserName = "Janitor" },
-                        new { ID = 3, Content = "Guts, Glory, Ram", ProductID = 2, Rating = 3, UserName = "Truck Fan" },
-                        new { ID = 4, Content = "It's a good truck. Good gas mileage.", ProductID = 2, Rating = 3, UserName = "Tater.Mpeg" },
-                        new { ID = 5, Content = "Unparralled Performace", ProductID = 3, Rating = 4, UserName = "Horse Breeder" },
-                        new { ID = 6, Content = "Doesn't fit taller people.", ProductID = 3, Rating = 2, UserName = "Too Tall For Life" },
-                        new { ID = 7, Content = "This car puts the thrill in every ride", ProductID = 4, Rating = 4, UserName = "Bumblebee" },
-                        new { ID = 8, Content = "This car has transformed my life.", ProductID = 4, Rating = 5, UserName = "Optimus Prime" },
-                        new { ID = 9, Content = "Sporty Coupe!", ProductID = 5, Rating = 3, UserName = "Father Time" },
-                        new { ID = 10, Content = "This was my first car. It brings back memories.", ProductID = 5, Rating = 5, UserName = "Nostalgia" }
+                        new { ID = 1, Content = "This Car Is Super Fast", Rating = 5, UserName = "SpyderMan" },
+                        new { ID = 2, Content = "Guts, Glory, Ram", Rating = 3, UserName = "Truck Fan" },
+                        new { ID = 3, Content = "Unparralled Performace", Rating = 4, UserName = "Horse Breeder" },
+                        new { ID = 4, Content = "This car puts the thrill in every ride", Rating = 4, UserName = "Bumblebee" },
+                        new { ID = 5, Content = "Sporty Coupe!", Rating = 3, UserName = "Father Time" }
                     );
-                });
-
-            modelBuilder.Entity("MvcProject.Models.Review", b =>
-                {
-                    b.HasOne("MvcProject.Models.Product", "Product")
-                        .WithMany()
-                        .HasForeignKey("ProductID")
-                        .OnDelete(DeleteBehavior.Cascade);
                 });
 #pragma warning restore 612, 618
         }
