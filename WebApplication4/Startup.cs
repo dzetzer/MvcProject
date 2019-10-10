@@ -6,6 +6,7 @@ using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Http;
 using Microsoft.Extensions.DependencyInjection;
+using MvcProject;
 using MvcProject.Models;
 using MvcProject.Repositories;
 
@@ -19,6 +20,7 @@ namespace WebApplication4
         {
             services.AddScoped<IRepository<Product>, ProductRepository>();
             services.AddMvc();
+            services.AddDbContext<VehicleContext>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
