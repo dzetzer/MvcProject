@@ -23,14 +23,27 @@ namespace MvcProject.Controllers
             return View(model);
         }
 
-        public ActionResult Create()
-        {            
+        public ViewResult Create()
+        {
             return View();
         }
 
-        public ActionResult Delete()
+        public ActionResult Create(Review review)
         {
-            return View();
+            reviewRepo.Create(review);
+            return RedirectToAction("Details");
+        }
+
+        public ActionResult Delete(Review review)
+        {
+            reviewRepo.Delete(review);
+            return RedirectToAction("Details");
+        }
+
+        public ViewResult Delete(int id)
+        {
+            var model = reviewRepo.GetByProductID(id);
+            return View(model);
         }
 
         public ActionResult Edit()
