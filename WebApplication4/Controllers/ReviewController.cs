@@ -22,5 +22,10 @@ namespace MvcProject.Controllers
             var model = reviewRepo.GetByProductID(id);
             return View(model);
         }
+
+        public ActionResult Create()
+        {            
+            return View();
+        }
     }
 }
