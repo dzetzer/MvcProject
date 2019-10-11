@@ -5,12 +5,18 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Remove="Views\Review\NewFolder\**" />
+    <Content Remove="Views\Review\NewFolder\**" />
+    <EmbeddedResource Remove="Views\Review\NewFolder\**" />
+    <None Remove="Views\Review\NewFolder\**" />
+  </ItemGroup>
+
+  <ItemGroup>
     <Compile Remove="Migrations\20191009191042_FirstMigration.cs" />
     <Compile Remove="Migrations\20191009191042_FirstMigration.Designer.cs" />
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Views\Review\NewFolder\" />
     <Folder Include="wwwroot\Images\" />
   </ItemGroup>
 

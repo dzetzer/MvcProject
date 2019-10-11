@@ -22,15 +22,31 @@
             @foreach (var reviews in Model)
             {
 
-            <article>
-                <p>User Name: @reviews.UserName</p>
-                <p>Rating: @reviews.Rating</p>
-                <p>Review: @reviews.Content</p>
-                <hr />
-            </article>
+                    <article>
+                        <p>User Name: @reviews.UserName</p>
+                        <p>Rating: @reviews.Rating</p>
+                        <p>Review: @reviews.Content</p>
+
+                        <form action="/Form/Index" method="get">
+                            <input type="submit" value="Edit Review"/> <br>
+                            <input type="submit" value="Delete Review"/> <br>
+                        </form>
+                        <hr />
+                    </article>
             }
                 <a href="/Product/Details/@Model.First().ProductID">Details</a>
         </section>
+
+        <div>
+            <section id="Forms">
+
+                <input type="submit" value="Add Review" />
+                
+
+            </section>
+
+
+        </div>
     @*<a href="/Product/Details/">Details</a>*@
     </div>
     <a href="/Product/Index">Go Back</a>
