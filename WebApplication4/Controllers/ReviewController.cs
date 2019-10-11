@@ -27,5 +27,16 @@ namespace MvcProject.Controllers
         {            
             return View();
         }
+
+        public ActionResult Delete()
+        {
+            return View();
+        }
+
+        public ActionResult Edit()
+        {
+            return View();
+        }
+
     }
 }
