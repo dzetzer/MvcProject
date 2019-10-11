@@ -19,18 +19,12 @@ namespace MvcProject.Models
 
         public virtual ICollection<Review> Reviews { get; set; }
 
-        //public string Content { get; set; }
-
-        //public virtual int ReviewID { get; set; }
-
-        //public virtual Review Review { get; set; }
-
         public Product()
         {
         }
 
         public Product(string image, string title, int id, string category,
-            string manufacter, string make, string model, string year/*, string content*/)
+            string manufacter, string make, string model, string year)
         {
             this.Image = image;
             this.Title = title;
@@ -40,7 +34,6 @@ namespace MvcProject.Models
             this.Make = make;
             this.Model = model;
             this.Year = year;
-            //this.Content = content;
         }
     }
 }
