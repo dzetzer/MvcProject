@@ -10,5 +10,7 @@ namespace MvcProject.Repositories
         IEnumerable<T> GetAll();
 
         T GetByID(int id);
+
+        IEnumerable<T> GetByProductID(int id);
     }
 }

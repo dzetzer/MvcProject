@@ -20,7 +20,6 @@ namespace MvcProject.Tests
         {     
            var underTest = new ProductController(productRepo);
 
-
           var result = underTest.Index();
 
             Assert.IsType<ViewResult>(result);
@@ -41,7 +40,7 @@ namespace MvcProject.Tests
         {
             var db = new VehicleContext();
 
-            var underTest = new ProductRepository(db);
+            var underTest = new ReviewRepository(db);
 
             var count = underTest.Count();
 
