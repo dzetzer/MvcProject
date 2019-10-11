@@ -13,12 +13,21 @@
 <body>
     <div>
         <p>Create a username and write your review below:</p>
-        <form action="/Form/Index" method="get"> 
+        <form action="/Form/Index" method="get">
             User Name: <br>
-            <input type="text" name="username"/> <br>
+            <input type="text" name="username" /> <br>
 
             Review: <br>
-            <input type="text" name="review"/><br>
+            <input type="text" name="review" /><br>
+        </form>
+
+        <form>
+            <input type="radio" name="rating" value="1 - The WORST" checked> 1<br>
+            <input type="radio" name="rating" value="2 - Meh, it's ok"> 2<br>
+            <input type="radio" name="rating" value="3 - Does it come in lime green?"> 3<br>
+            <input type="radio" name="rating" value="4 - Where do I sign?"> 4<br>
+            <input type="radio" name="rating" value="5 - This is amazing, I'll take 10 of them!"> 5
+
         </form>
 
     </div>
