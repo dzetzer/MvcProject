@@ -25,9 +25,18 @@
                     <article>
                         <p>User Name: @reviews.UserName</p>
                         <p>Rating: @reviews.Rating</p>
-                        <p>Review: @reviews.Content</p>
+                        <p>Review: @reviews.Content</p><br>
+                        <section id="Forms">
+                            <form action="/Review/Edit" method"get>
+                                <input type="submit" value="Edit Review" />
+                            </form>
+                            
+                            <form action="/Review/Delete" method="get">
+                                <input type="submit" value="Delete Review" /> 
+                            </form>
 
-                        
+                        </section>
+
                         <hr />
                     </article>
             }
@@ -39,15 +48,7 @@
                 <form action="/Review/Create" method="get">
                     <input type="submit" value="Add Review" /> <br>
                 </form>
-                <br>
-                <form action="/Review/Edit" method"get>
-                    <input type="submit" value="Edit Review" /> <br>
-                </form>
-                <br>
-                <form action="/Review/Delete" method="get">
-                    <input type="submit" value="Delete Review" /> <br>
-                </form>
-
+               
             </section>
 
 
