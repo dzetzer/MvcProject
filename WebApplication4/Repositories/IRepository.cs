@@ -11,8 +11,9 @@ namespace MvcProject.Repositories
         IEnumerable<T> GetAll();
 
         T GetByID(int id);
-        T Create(Review review);
-        T Delete(Review review);
+        void Create(T obj);
+        void Delete(T obj);
+        //void Edit(T obj);
 
         IEnumerable<T> GetByProductID(int id);
         
