@@ -26,25 +26,28 @@ namespace MvcProject.Repositories
             return db.Reviews;
         }
 
-        //public IEnumerable<Review> GetByProductID(int productID)
-        //{
-        //    return from r in db.Reviews
-        //           where r.ProductID == productID
-        //           select new Review
-        //           {
-        //               Title = r.Title,
-        //               Image = r.Image,
-        //               UserName = r.UserName,
-        //               Rating = r.Rating,
-        //               Content = r.Content,
-        //           };
-
-        //}
-
         public IEnumerable<Review> GetByProductID(int productID)
         {
             var reviews = db.Reviews.Where(p => p.ProductID == productID);
             return reviews;
+        }
+
+        public void Create(Review review)
+        {
+            db.Reviews.Add(review);
+            db.SaveChanges();
+        }
+
+        public void Delete(Review review)
+        {
+            db.Reviews.Remove(review);
+            db.SaveChanges();
+        }
+
+        public void Edit(Review review)
+        {
+            db.Reviews.Update(review);
+            db.SaveChanges();
         }
 
         public Review GetByID(int id)

@@ -20,15 +20,57 @@ namespace MvcProject.Controllers
         public ViewResult Review(int id)
         {
             var model = reviewRepo.GetByProductID(id);
-            //var model = reviewRepo.GetByProductID();
             return View(model);
         }
 
-        //public ViewResult Details(int id)
-        //{
-        //    var model = reviewRepo.GetByID(id);
+        [HttpGet]
+        public ViewResult Create()
+        {
+            return View();
+        }
 
-        //    return View(model);
-        //}
+        [HttpPost]
+        public ActionResult Create(Review review)
+        {
+            reviewRepo.Create(review);
+            return RedirectToAction("Review", new { id = review.ProductID });
+        }
+
+        [HttpGet]
+        public ViewResult Delete(int id)
+        {
+            var model = reviewRepo.GetByProductID(id);
+            return View(model);
+        }
+
+        [HttpPost]
+        public ActionResult Delete(Review review)
+        {
+            reviewRepo.Delete(review);
+            return RedirectToAction("Details");
+        }
+
+        [HttpGet]
+        public ViewResult Edit(int id)
+        {
+            var model = reviewRepo.GetByProductID(id);
+            return View(model);
+        }
+
+        [HttpPost]
+        public ActionResult Edit(Review review)
+        {
+            reviewRepo.Edit(review);
+            return RedirectToAction("Details");
+        }
+
+        [HttpGet]
+        public ViewResult CreateByProductID(int id)
+        {
+            ViewBag.ProductID = id;
+            return View();
+        }
     }
+
+    
 }
