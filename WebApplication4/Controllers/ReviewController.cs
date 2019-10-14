@@ -33,7 +33,7 @@ namespace MvcProject.Controllers
         public ActionResult Create(Review review)
         {
             reviewRepo.Create(review);
-            return RedirectToAction("Details");
+            return RedirectToAction("Review", new { id = review.ProductID });
         }
 
         [HttpGet]
@@ -63,7 +63,14 @@ namespace MvcProject.Controllers
             reviewRepo.Edit(review);
             return RedirectToAction("Details");
         }
-}
+
+        [HttpGet]
+        public ViewResult CreateByProductID(int id)
+        {
+            ViewBag.ProductID = id;
+            return View();
+        }
+    }
 
     
 }

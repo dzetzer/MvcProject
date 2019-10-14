@@ -28,7 +28,14 @@
             <div class="form-group">
                 <p>Rating:</p>
                 <label asp-for="Rating" class="control-label"></label>
-                <input asp-for="Rating" class="form-control" />
+                <select name="Rating">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                </select>
+                @*<input type="range" asp-for="Rating" class="form-control"min="1" max="5"/>*@
                 <span asp-validation-for="Rating" class="text-danger"></span>
             </div><br>
             <div class="form-group">
@@ -39,7 +46,7 @@
             </div><br>
             <div class="form-group">
                 @*<label asp-for="ProductID" class="control-label"></label>*@
-                <input type = "hidden" asp-for="ProductID" class ="form-control" value="ViewBag.ProductID" />
+                <input type="hidden" name="ProductID" class ="form-control" value="@ViewBag.ProductID" />
             </div>
             <div class="form-group">
                 <input type="submit" value="Create" class="btn btn-default" />
