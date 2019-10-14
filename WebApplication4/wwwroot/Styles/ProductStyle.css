@@ -1,3 +1,5 @@
+
+
 * {
     font-family: sans-serif;
     line-height: 1.618em;
@@ -6,16 +8,16 @@
     padding: 0;
 }
 
-h1{
-    font-size:120px;
-    color:firebrick;
+h1 {
+    font-size: 120px;
+    color: firebrick;
 }
 
 section,
 footer {
-    padding:4em;
+    padding: 4em;
     margin: 0 auto;
-    justify-content:center ;
+    justify-content: center;
 }
 
 footer {
@@ -31,16 +33,16 @@ footer {
     display: grid;
     grid-template-columns: repeat(5, 1fr);
     grid-template-rows: auto;
-
 }
+
 section {
-    
     margin: 1em 0;
     min-height: 2em;
     font-size: 1.3em;
 }
-carsList{
-    margin:auto;
+
+carsList {
+    margin: auto;
 }
 
 body {
@@ -52,4 +54,3 @@ body {
     background-position: center;
     margin-top: 3em;
 }
-
