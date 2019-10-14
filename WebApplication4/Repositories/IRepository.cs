@@ -13,7 +13,7 @@ namespace MvcProject.Repositories
         T GetByID(int id);
         void Create(T obj);
         void Delete(T obj);
-        //void Edit(T obj);
+        void Edit(T obj);
 
         IEnumerable<T> GetByProductID(int id);
         

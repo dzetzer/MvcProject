@@ -50,20 +50,20 @@ namespace MvcProject.Controllers
             return RedirectToAction("Details");
         }
 
-        //[HttpGet]
-        //public ViewResult Edit
-        //{
-        //    var model = reviewRepo.GetByProductID(id);
-        //    return View(model);
-        //}
+        [HttpGet]
+        public ViewResult Edit(int id)
+        {
+            var model = reviewRepo.GetByProductID(id);
+            return View(model);
+        }
 
-        //[HttpPost]
-        //public ActionResult Edit()
-        //{
-        //reviewRepo.Edit(review);
-        //return RedirectToAction("Details");
-        //}
-    }
+        [HttpPost]
+        public ActionResult Edit(Review review)
+        {
+            reviewRepo.Edit(review);
+            return RedirectToAction("Details");
+        }
+}
 
     
 }
