@@ -44,6 +44,12 @@ namespace MvcProject.Repositories
             db.SaveChanges();
         }
 
+        public void Edit(Review review)
+        {
+            db.Reviews.Update(review);
+            db.SaveChanges();
+        }
+
         public Review GetByID(int id)
         {
             return db.Reviews.Single(r => r.ID == id);
