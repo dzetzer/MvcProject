@@ -23,29 +23,34 @@ namespace MvcProject.Controllers
             return View(model);
         }
 
+        [HttpGet]
         public ViewResult Create()
         {
             return View();
         }
 
+        [HttpPost]
         public ActionResult Create(Review review)
         {
             reviewRepo.Create(review);
             return RedirectToAction("Details");
         }
 
-        public ActionResult Delete(Review review)
-        {
-            reviewRepo.Delete(review);
-            return RedirectToAction("Details");
-        }
-
+        [HttpGet]
         public ViewResult Delete(int id)
         {
             var model = reviewRepo.GetByProductID(id);
             return View(model);
         }
 
+        [HttpPost]
+        public ActionResult Delete(Review review)
+        {
+            reviewRepo.Delete(review);
+            return RedirectToAction("Details");
+        }
+
+        [HttpGet]
         public ActionResult Edit()
         {
             return View();
