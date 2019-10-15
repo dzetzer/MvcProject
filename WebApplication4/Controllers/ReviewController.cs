@@ -36,18 +36,16 @@ namespace MvcProject.Controllers
             return RedirectToAction("Review", new { id = review.ProductID });
         }
 
-        //[HttpGet]
-        //public ViewResult Delete(int id)
-        //{
-        //    var model = reviewRepo.GetByProductID(id);
-        //    return View(model);
-        //}
+        [HttpGet]
+        public ViewResult Delete(int id)
+        {
+            var model = reviewRepo.GetByProductID(id);
+            return View(model);
+        }
 
         [HttpPost]
-        public ActionResult Delete(int id)
+        public ActionResult Delete(Review review)
         {
-            Review review = reviewRepo.GetByID(id);
-
             reviewRepo.Delete(review);
             return RedirectToAction("Review", new { id = review.ProductID });
         }
@@ -77,6 +75,13 @@ namespace MvcProject.Controllers
         public ViewResult EditByProductID(int id)
         {
             var model = reviewRepo.GetByID(id);           
+            return View(model);
+        }
+
+        [HttpGet]
+        public ViewResult DeleteByProductID(int id)
+        {
+            var model = reviewRepo.GetByID(id);
             return View(model);
         }
     }
