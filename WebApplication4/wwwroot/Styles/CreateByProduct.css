@@ -32,6 +32,8 @@ footer {
     justify-content: center;
     margin: 0 auto;
     max-width: 800px;
+    margin-top: 2em;
+    margin-bottom: 1em;
 }
 
 img {
@@ -39,7 +41,13 @@ img {
 }
 
 h4{
+    color:darkgoldenrod;
     font-size: 120px;
+}
+
+.form-group{
+    font-size24px;
+    color:gold;
 }
 
 

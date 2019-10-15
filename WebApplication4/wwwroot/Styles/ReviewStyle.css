@@ -62,3 +62,17 @@ article{
     color:whitesmoke;
     font-size:24px;
 }
+
+.one :visited {
+    font-size: 24px;
+    color: gold;
+}
+
+.one :hover {
+    color: darkgoldenrod;
+}
+
+.two{
+    color:gold;
+    
+}
