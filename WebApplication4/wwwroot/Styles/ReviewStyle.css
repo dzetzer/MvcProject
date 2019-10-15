@@ -1,22 +1,28 @@
-
+﻿
 * {
     font-family: sans-serif;
     line-height: 1.618em;
-    box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
 
-h1 {
-    font-size: 120px;
-    color: darkgoldenrod;
+a {
+    padding: 2rem;
 }
 
-section,
-footer {
-    padding: 4em;
-    margin: 0 auto;
-    justify-content: center;
+img {
+    border-radius: 1rem;
+}
+
+html {
+    font-size: 16px;
+    margin-top: 3em;
+}
+
+
+h1 {
+    color:darkgoldenrod;
+    font-size: 120px;
 }
 
 footer {
@@ -28,20 +34,18 @@ footer {
     text-align: center;
 }
 
-#Products {
+div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 2rem;
+}
+
+footer {
     display: grid;
-    grid-template-columns: repeat(5, 1fr);
-    grid-template-rows: auto;
-}
-
-section {
-    margin: 1em 0;
-    min-height: 2em;
-    font-size: 1.3em;
-}
-
-carsList {
-    margin: auto;
+    justify-content: center;
+    margin: 0 auto;
+    max-width: 800px;
 }
 
 body {
@@ -54,9 +58,9 @@ body {
     margin-top: 3em;
 }
 
-.one :link{
+article{
+    color:whitesmoke;
     font-size:24px;
-    color:blue;   
 }
 
 .one :visited {
@@ -64,6 +68,11 @@ body {
     color: gold;
 }
 
-.one :hover{
+.one :hover {
     color: darkgoldenrod;
+}
+
+.two{
+    color:gold;
+    
 }
