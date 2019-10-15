@@ -11,12 +11,12 @@ img{
     border-radius: 1rem;
 }
 html {
-    font-size: 16px;
+    font-size: 1rem;
     margin-top: 3em;
 }
 
 h1 {
-    font-size: 120px;
+    font-size: 4rem;
     color:darkgoldenrod;
 }
 footer {
@@ -33,20 +33,20 @@ div{
     justify-content: center;
     padding: 2rem;
     color:whitesmoke;
-    font-size:24px;
+    font-size:1.5rem;
 }
 footer {
     display: grid;
     justify-content: center;
     margin: 0 auto;
-    max-width: 800px;
+    max-width: 50rem;
     margin-top: 2em;
     margin-bottom: 1em;
 }
 
 body {
     font-family: sans-serif;
-    font-size: 16px;
+    font-size: 1rem;
     text-align: center;
     background-image: url(/Images/key.jpg);
     background-size: cover;
@@ -54,12 +54,12 @@ body {
     margin-top: 3em;
 }
 .one :link{
-    font-size:24px;
+    font-size:1.5rem;
     color:gold;
 }
 
 .one :visited {
-    font-size:24px;
+    font-size:1.5rem;
     color: gold;
 }
 

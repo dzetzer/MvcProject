@@ -9,7 +9,7 @@
 
 body {
     font-family: sans-serif;
-    font-size: 16px;
+    font-size: 1rem;
     text-align: center;
     background-image: url(/Images/key.jpg);
     background-size: cover;
@@ -31,7 +31,7 @@ footer {
     display: grid;
     justify-content: center;
     margin: 0 auto;
-    max-width: 800px;
+    max-width: 50rem;
     margin-top: 2em;
     margin-bottom: 1em;
 }
@@ -42,11 +42,11 @@ img {
 
 h4{
     color:darkgoldenrod;
-    font-size: 120px;
+    font-size: 5rem;
 }
 
 .form-group{
-    font-size24px;
+    font-size:1.5rem;
     color:gold;
 }
 
