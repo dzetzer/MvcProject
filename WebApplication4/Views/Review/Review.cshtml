@@ -31,13 +31,13 @@
                                 <input type="submit" value="Edit Review" />
                             </form>
                             
-                            <form action="/Review/Delete" method="get">
+                            <form action="/Review/Delete/@reviews.ID" method="post">
                                 <input type="submit" value="Delete Review" /> 
                             </form>
 
                         </section>
 
-                        <hr />
+                        <hr /><br>
                     </article>
             }
                 <a href="/Product/Details/@Model.First().ProductID">Details</a>
