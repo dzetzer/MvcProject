@@ -81,7 +81,7 @@ namespace MvcProject.Controllers
         [HttpGet]
         public ViewResult DeleteByProductID(int id)
         {
-            var model = reviewRepo.GetByID(id);
+            var model = reviewRepo.GetByProductID(id);
             return View(model);
         }
     }
