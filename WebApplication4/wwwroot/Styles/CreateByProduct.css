@@ -1,0 +1,46 @@
+﻿
+
+* {
+    font-family: sans-serif;
+    line-height: 1.618em;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: sans-serif;
+    font-size: 16px;
+    text-align: center;
+    background-image: url(/Images/key.jpg);
+    background-size: cover;
+    background-position: center;
+    margin-top: 3em;
+}
+
+
+footer {
+    margin-top: 2em;
+    margin-bottom: 1em;
+    background: #666;
+    color: #fff;
+    padding: 1em;
+    text-align: center;
+}
+
+footer {
+    display: grid;
+    justify-content: center;
+    margin: 0 auto;
+    max-width: 800px;
+}
+
+img {
+    border-radius: 1rem;
+}
+
+h4{
+    font-size: 120px;
+}
+
+
+

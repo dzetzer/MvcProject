@@ -9,16 +9,16 @@
 <head>
     <meta name="viewport" content="width=device-width" />
     <title>Reviews</title>
-    <link rel="stylesheet" href="~/Styles/DetailsStyle.css" />
+    <link rel="stylesheet" href="~/Styles/ReviewStyle.css" />
 
 </head>
 <body>
-    <h1>Reviews @Model.First().Product.Title</h1>
+    <h1>Reviews for  @Model.First().Product.Title</h1>
 
     <div>
 
         <section id="Reviews">
-                    <img src="@Model.First().Product.Image" alt=reviews.Title style=" height: 200px; width:270px;" />
+                    <img src="@Model.First().Product.Image" alt=reviews.Title style=" height: 240px; width:350px;" />
             @foreach (var reviews in Model)
             {
 
@@ -37,7 +37,7 @@
 
                         </section>
 
-                        <hr />
+                  
                     </article>
             }
                 <a href="/Product/Details/@Model.First().ProductID">Details</a>

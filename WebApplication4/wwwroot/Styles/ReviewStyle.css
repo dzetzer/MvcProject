@@ -1,24 +1,30 @@
+﻿
 * {
     font-family: sans-serif;
     line-height: 1.618em;
     margin: 0;
     padding: 0;
 }
+
 a {
     padding: 2rem;
 }
-img{
+
+img {
     border-radius: 1rem;
 }
+
 html {
     font-size: 16px;
     margin-top: 3em;
 }
 
+
 h1 {
-    font-size: 120px;
     color:darkgoldenrod;
+    font-size: 120px;
 }
+
 footer {
     margin-top: 2em;
     margin-bottom: 1em;
@@ -27,14 +33,14 @@ footer {
     padding: 1em;
     text-align: center;
 }
-div{
+
+div {
     display: flex;
     flex-direction: column;
     justify-content: center;
     padding: 2rem;
-    color:whitesmoke;
-    font-size:24px;
 }
+
 footer {
     display: grid;
     justify-content: center;
@@ -51,14 +57,8 @@ body {
     background-position: center;
     margin-top: 3em;
 }
-.one :link{
-    font-size:24px;
+
+article{
     color:whitesmoke;
-}
-
-.one :visited {
     font-size:24px;
-    color: whitesmoke;
 }
-
-
