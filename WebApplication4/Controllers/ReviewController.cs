@@ -36,18 +36,20 @@ namespace MvcProject.Controllers
             return RedirectToAction("Review", new { id = review.ProductID });
         }
 
-        [HttpGet]
-        public ViewResult Delete(int id)
-        {
-            var model = reviewRepo.GetByProductID(id);
-            return View(model);
-        }
+        //[HttpGet]
+        //public ViewResult Delete(int id)
+        //{
+        //    var model = reviewRepo.GetByProductID(id);
+        //    return View(model);
+        //}
 
         [HttpPost]
-        public ActionResult Delete(Review review)
+        public ActionResult Delete(int id)
         {
+            Review review = reviewRepo.GetByID(id);
+
             reviewRepo.Delete(review);
-            return RedirectToAction("Details");
+            return RedirectToAction("Review", new { id = review.ProductID });
         }
 
         [HttpGet]
@@ -61,7 +63,7 @@ namespace MvcProject.Controllers
         public ActionResult Edit(Review review)
         {
             reviewRepo.Edit(review);
-            return RedirectToAction("Details");
+            return RedirectToAction("Review", new { id = review.ProductID });
         }
 
         [HttpGet]
@@ -69,6 +71,13 @@ namespace MvcProject.Controllers
         {
             ViewBag.ProductID = id;
             return View();
+        }
+
+        [HttpGet]
+        public ViewResult EditByProductID(int id)
+        {
+            var model = reviewRepo.GetByID(id);           
+            return View(model);
         }
     }
 
