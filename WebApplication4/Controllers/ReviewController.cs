@@ -74,7 +74,7 @@ namespace MvcProject.Controllers
         [HttpGet]
         public ViewResult EditByProductID(int id)
         {
-            var model = reviewRepo.GetByID(id);
+            var model = reviewRepo.GetByID(id);           
             return View(model);
         }
     }
