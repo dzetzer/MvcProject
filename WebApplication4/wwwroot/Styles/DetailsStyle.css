@@ -14,11 +14,10 @@ html {
     font-size: 16px;
     margin-top: 3em;
 }
-h1, h2, h3 {
-    color: #666;
-}
+
 h1 {
-    font-size: 3em;
+    font-size: 120px;
+    color:darkgoldenrod;
 }
 footer {
     margin-top: 2em;
@@ -33,10 +32,39 @@ div{
     flex-direction: column;
     justify-content: center;
     padding: 2rem;
+    color:whitesmoke;
+    font-size:24px;
 }
 footer {
     display: grid;
     justify-content: center;
     margin: 0 auto;
     max-width: 800px;
+    margin-top: 2em;
+    margin-bottom: 1em;
 }
+
+body {
+    font-family: sans-serif;
+    font-size: 16px;
+    text-align: center;
+    background-image: url(/Images/key.jpg);
+    background-size: cover;
+    background-position: center;
+    margin-top: 3em;
+}
+.one :link{
+    font-size:24px;
+    color:gold;
+}
+
+.one :visited {
+    font-size:24px;
+    color: gold;
+}
+
+.one :hover{
+    color:darkgoldenrod;
+}
+
+

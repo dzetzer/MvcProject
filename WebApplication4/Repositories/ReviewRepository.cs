@@ -32,6 +32,24 @@ namespace MvcProject.Repositories
             return reviews;
         }
 
+        public void Create(Review review)
+        {
+            db.Reviews.Add(review);
+            db.SaveChanges();
+        }
+
+        public void Delete(Review review)
+        {
+            db.Reviews.Remove(review);
+            db.SaveChanges();
+        }
+
+        public void Edit(Review review)
+        {
+            db.Reviews.Update(review);
+            db.SaveChanges();
+        }
+
         public Review GetByID(int id)
         {
             return db.Reviews.Single(r => r.ID == id);

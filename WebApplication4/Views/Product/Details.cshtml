@@ -15,17 +15,17 @@
 <body>
     <h1>Vehicle Details for @Model.Title</h1>
     <div>
-        <p><img src="@Model.Image" alt=@Model.Title style=" height: 200px; width:340px;"/></p>
+        <p><img src="@Model.Image" alt=@Model.Title style=" height: 240px; width:350px;"/></p>
         <p><span>@Model.Title</span></p>
         <p>Manufacturer: <span>@Model.Manufacturer</span></p>
         <p>Make: <span>@Model.Make</span></p>
         <p>Model: <span>@Model.Model</span></p>
         <p>Category: <span>@Model.Category</span></p>
         <p>Year: <span>@Model.Year</span></p>
-        <a href="/Review/Review/@Model.ID">Reviews</a>
-        <hr/>
+        <p class="one"><a href="/Review/Review/@Model.ID">Reviews</a></p>
+      
     </div>
-    <a href="/Product/Index">Go Back</a>
+    <p class="one"><a href="/Product/Index">Go Back</a></p>
     <footer><h6>&copy;Vehicle Reviews 2019</h6></footer>
 </body>
 </html>

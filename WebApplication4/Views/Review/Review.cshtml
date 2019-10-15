@@ -9,31 +9,53 @@
 <head>
     <meta name="viewport" content="width=device-width" />
     <title>Reviews</title>
-    <link rel="stylesheet" href="~/Styles/DetailsStyle.css" />
+    <link rel="stylesheet" href="~/Styles/ReviewStyle.css" />
 
 </head>
 <body>
-    <h1>Reviews @Model.First().Product.Title</h1>
+    <h1>Reviews for  @Model.First().Product.Title</h1>
 
     <div>
 
         <section id="Reviews">
-                    <img src="@Model.First().Product.Image" alt=reviews.Title style=" height: 120px; width:200px;" />
+                    <img src="@Model.First().Product.Image" alt=reviews.Title style=" height: 240px; width:350px;" />
             @foreach (var reviews in Model)
             {
 
-            <article>
-                <p>User Name: @reviews.UserName</p>
-                <p>Rating: @reviews.Rating</p>
-                <p>Review: @reviews.Content</p>
-                <hr />
-            </article>
+                    <article>
+                        <p class="two">User Name: @reviews.UserName</p>
+                        <p class="two">Rating: @reviews.Rating</p>
+                        <p class="two">Review: @reviews.Content</p><br>
+                        <section id="Forms">
+                            <form action="/Review/EditByProductID/@reviews.ID" method="get">
+                                <input type="submit" value="Edit Review" />
+                            </form>
+                            
+                            <form action="/Review/Delete/@reviews.ID" method="post">
+                                <input type="submit" value="Delete Review" /> 
+                            </form>
+
+                        </section>                 
+
+                        <hr /><br>
+
+                    </article>
             }
-                <a href="/Product/Details/@Model.First().ProductID">Details</a>
+                    <p class="one"><a href="/Product/Details/@Model.First().ProductID">Details</a></p>
         </section>
-    @*<a href="/Product/Details/">Details</a>*@
+
+        <div>
+            <section id="Forms">
+                <form action="/Review/CreateByProductID/@Model.First().ProductID" method="get">
+                    <input type="submit" value="Add Review" /> <br>
+                </form>
+               
+            </section>
+
+
+        </div>
     </div>
-    <a href="/Product/Index">Go Back</a>
+    <p class="one"><a href="/Product/Index">Go Back</a></p>
     <footer><h6>&copy;Vehicle Reviews 2019</h6></footer>
 </body>
 </html>

@@ -1,4 +1,4 @@
-﻿@model IEnumerable<MvcProject.Models.Product>
+﻿@model  IEnumerable<MvcProject.Models.Product>
 @{
     Layout = null;
 }
@@ -14,16 +14,16 @@
 <body>
     <h1>Vehicle Reviews</h1>
     <div>
-
+        
         <section id="Products">
-            @foreach (var cars in Model)
-            {
+        @foreach (var cars in Model)
+        {
 
-                <article>
-                    <p class="one"><a href="/Product/Details/@cars.ID">@cars.Title</a></p>
-                    <img src="@cars.Image" alt="McLaren 570 Spyder" style=" height: 240px; width:350px;" />
-                </article>
-            }
+            <article> 
+                <p><a href="/Product/Details/@cars.ID">@cars.Title</a></p>
+                <img src="@cars.Image" alt="McLaren 570 Spyder" style=" height: 240px; width:350px;"/>
+            </article>
+        }
         </section>
 
 
