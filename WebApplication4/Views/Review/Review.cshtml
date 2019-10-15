@@ -27,7 +27,7 @@
                         <p>Rating: @reviews.Rating</p>
                         <p>Review: @reviews.Content</p><br>
                         <section id="Forms">
-                            <form action="/Review/Edit" method"get>
+                            <form action="/Review/EditByProductID/@reviews.ID" method="get">
                                 <input type="submit" value="Edit Review" />
                             </form>
                             

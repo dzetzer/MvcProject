@@ -6,13 +6,13 @@ namespace MvcProject.Migrations
     {
         protected override void Up(MigrationBuilder migrationBuilder)
         {
-            migrationBuilder.DropColumn(
-                name: "Image",
-                table: "Reviews");
+            //migrationBuilder.DropColumn(
+            //    name: "Image",
+            //    table: "Reviews");
 
-            migrationBuilder.DropColumn(
-                name: "Title",
-                table: "Reviews");
+            //migrationBuilder.DropColumn(
+            //    name: "Title",
+            //    table: "Reviews");
 
             migrationBuilder.UpdateData(
                 table: "Products",

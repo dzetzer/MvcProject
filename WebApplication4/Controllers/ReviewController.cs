@@ -61,7 +61,7 @@ namespace MvcProject.Controllers
         public ActionResult Edit(Review review)
         {
             reviewRepo.Edit(review);
-            return RedirectToAction("Details");
+            return RedirectToAction("Review", new { id = review.ProductID });
         }
 
         [HttpGet]
@@ -69,6 +69,13 @@ namespace MvcProject.Controllers
         {
             ViewBag.ProductID = id;
             return View();
+        }
+
+        [HttpGet]
+        public ViewResult EditByProductID(int id)
+        {
+            var model = reviewRepo.GetByID(id);
+            return View(model);
         }
     }
 
