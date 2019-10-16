@@ -18,15 +18,12 @@
         <section id="Products">
         @foreach (var cars in Model)
         {
-
             <article> 
                 <p><a href="/Product/Details/@cars.ID">@cars.Title</a></p>
                 <img src="@cars.Image" alt="McLaren 570 Spyder" style=" height: 15rem; width:21px;"/>
             </article>
         }
         </section>
-
-
     </div>
     <footer><h6>&copy;Vehicle Reviews 2019</h6></footer>
 </body>

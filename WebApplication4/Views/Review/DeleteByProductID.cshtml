@@ -49,7 +49,7 @@
         <form asp-action="Delete">
             <input type="hidden" asp-for="ID" />
             <input type="submit" value="Delete" class="btn btn-default" /> 
-            <a asp-action="/Review/Review/">Back to List</a>
+            <a asp-action="/Review/Review/@Model.ID">Back to List</a>
         </form>
     </div>
 </body>

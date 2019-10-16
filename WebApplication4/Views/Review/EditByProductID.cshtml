@@ -39,12 +39,10 @@
                 </div><br>
                 <div class="form-group">
                     <p>Review:</p>
-                    @*<label asp-for="Content" class="control-label"></label>*@
                     <textarea asp-for="Content" rows="10" cols="30" class="form-control"></textarea>
                     <span asp-validation-for="Content" class="text-danger"></span>
                 </div><br>
                 <div class="form-group">
-                    @*<label asp-for="ProductID" class="control-label"></label>*@
                     <input type="hidden"  name="ProductID" class="form-control" value="@Model.ProductID" />
                     <span asp-validation-for="ProductID" class="text-danger"></span>
                 </div>

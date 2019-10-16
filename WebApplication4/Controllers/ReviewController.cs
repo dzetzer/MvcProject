@@ -23,12 +23,6 @@ namespace MvcProject.Controllers
             return View(model);
         }
 
-        [HttpGet]
-        public ViewResult Create()
-        {
-            return View();
-        }
-
         [HttpPost]
         public ActionResult Create(Review review)
         {
@@ -36,25 +30,11 @@ namespace MvcProject.Controllers
             return RedirectToAction("Review", new { id = review.ProductID });
         }
 
-        [HttpGet]
-        public ViewResult Delete(int id)
-        {
-            var model = reviewRepo.GetByProductID(id);
-            return View(model);
-        }
-
         [HttpPost]
         public ActionResult Delete(Review review)
         {
             reviewRepo.Delete(review);
             return RedirectToAction("Review", new { id = review.ProductID });
-        }
-
-        [HttpGet]
-        public ViewResult Edit(int id)
-        {
-            var model = reviewRepo.GetByProductID(id);
-            return View(model);
         }
 
         [HttpPost]
@@ -81,7 +61,7 @@ namespace MvcProject.Controllers
         [HttpGet]
         public ViewResult DeleteByProductID(int id)
         {
-            var model = reviewRepo.GetByProductID(id);
+            var model = reviewRepo.GetByID(id);
             return View(model);
         }
     }

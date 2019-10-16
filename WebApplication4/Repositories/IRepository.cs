@@ -16,6 +16,5 @@ namespace MvcProject.Repositories
         void Edit(T obj);
 
         IEnumerable<T> GetByProductID(int id);
-        
     }
 }
