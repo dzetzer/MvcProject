@@ -23,17 +23,6 @@ namespace MvcProject.Models
         {
         }
 
-        public Product(string image, string title, int id, string category,
-            string manufacter, string make, string model, string year)
-        {
-            this.Image = image;
-            this.Title = title;
-            this.ID = id;
-            this.Category = category;
-            this.Manufacturer = manufacter;
-            this.Make = make;
-            this.Model = model;
-            this.Year = year;
-        }
+        
     }
 }

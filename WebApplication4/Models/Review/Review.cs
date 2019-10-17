@@ -20,14 +20,7 @@ namespace MvcProject.Models
         {
         }
 
-        public Review(int id, string content,
-            int rating, string userName)
-        {
-            this.ID = id;
-            this.Content = content;
-            this.Rating = rating;
-            this.UserName = userName;
-        }
+        
     }
 
 

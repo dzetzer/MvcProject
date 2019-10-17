@@ -1,4 +1,4 @@
-* {
+body {
     font-family: sans-serif;
     line-height: 1.618em;
     margin: 0;
@@ -32,7 +32,7 @@ div{
     flex-direction: column;
     justify-content: center;
     padding: 2rem;
-    color:whitesmoke;
+    color:gold;
     font-size:1.5rem;
 }
 footer {
