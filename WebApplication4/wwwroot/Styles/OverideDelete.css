@@ -12,7 +12,7 @@ body {
     background-size: cover;
     background-position: center;
     margin-top: 1em;
-    color: yellow;
+    color: gold;
 }
 
 .three :visited{
@@ -24,5 +24,5 @@ body {
 }
 
 .three :link{
-    color:papayawhip;
+    color:gold;
 }

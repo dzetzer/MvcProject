@@ -12,7 +12,7 @@ html {
 
 h1 {
     font-size: 4rem;
-    color:darkgoldenrod;
+    color:gold;
 }
 footer {
     margin-top: 2em;
@@ -59,7 +59,7 @@ body {
 }
 
 .one :hover{
-    color:darkgoldenrod;
+    color:gold;
 }
 
 

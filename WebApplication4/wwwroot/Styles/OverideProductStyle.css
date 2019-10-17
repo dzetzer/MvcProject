@@ -1,7 +1,7 @@
 
 h1 {
     font-size: 7.5rem;
-    color: darkgoldenrod;
+    color: gold;
 }
 
 section,
@@ -57,5 +57,5 @@ body {
 }
 
 .one :hover{
-    color: darkgoldenrod;
+    color: gold;
 }
