@@ -59,14 +59,6 @@ namespace MvcProject.Tests
         }
 
         [Fact]
-        public void Details_Returns_Sixth_View()
-        {
-            var result = underTest.Details(0);
-
-            Assert.IsType<ViewResult>(result);
-        }
-
-        [Fact]
         public void Details_Passes_Product_To_View()
         {
             var expectedProducts = new Product();
@@ -76,5 +68,6 @@ namespace MvcProject.Tests
 
             Assert.Equal(expectedProducts, result.Model);
         }
+
     }
 }

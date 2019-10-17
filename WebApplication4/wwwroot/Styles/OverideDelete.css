@@ -1,9 +1,4 @@
-﻿* {
-    font-family: sans-serif;
-    line-height: 1.618em;
-    margin: 0;
-    padding: 0;
-}
+﻿
 h6{
     font-size:2rem;
     color:yellow;
@@ -13,11 +8,11 @@ body {
     font-family: sans-serif;
     font-size: 1rem;
     text-align: center;
-    background-image: url(/Images/key.jpg);
+    background-image: url(/Images/leather.jpg);
     background-size: cover;
     background-position: center;
     margin-top: 1em;
-    color:yellow;
+    color: yellow;
 }
 
 .three :visited{

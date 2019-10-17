@@ -1,12 +1,4 @@
 
-* {
-    font-family: sans-serif;
-    line-height: 1.618em;
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-}
-
 h1 {
     font-size: 7.5rem;
     color: darkgoldenrod;
@@ -48,7 +40,7 @@ body {
     font-family: sans-serif;
     font-size: 1rem;
     text-align: center;
-    background-image: url(/Images/key.jpg);
+    background-image: url(/Images/leather.jpg);
     background-size: cover;
     background-position: center;
     margin-top: 1em;
