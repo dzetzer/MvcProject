@@ -1,4 +1,4 @@
-﻿@model  IEnumerable<MvcProject.Models.Product>
+﻿@model IEnumerable<MvcProject.Models.Product>
 @{
     Layout = null;
 }
@@ -9,21 +9,21 @@
 <head>
     <meta name="viewport" content="width=device-width" />
     <title>Vehicle Reviews</title>
-    <link rel="stylesheet" type="text/css" href="~/Styles/ProductStyle.css" />
+    <link rel="stylesheet" type="text/css" href="~/Styles/ProductStyle.css"  />
 </head>
 <body>
     <h1>Vehicle Reviews</h1>
     <div>
-        
-        <section id="Products">
-        @foreach (var cars in Model)
-        {
 
-            <article> 
-                <p><a href="/Product/Details/@cars.ID">@cars.Title</a></p>
-                <img src="@cars.Image" alt="McLaren 570 Spyder" style=" height: 120px; width:200px;" />
-            </article>
-        }
+        <section id="Products">
+            @foreach (var cars in Model)
+            {
+
+                <article>
+                    <p class="one"><a href="/Product/Details/@cars.ID">@cars.Title</a></p>
+                    <img src="@cars.Image" alt="McLaren 570 Spyder" style=" height: 9rem; width:15.8rem;" />
+                </article>
+            }
         </section>
 
 

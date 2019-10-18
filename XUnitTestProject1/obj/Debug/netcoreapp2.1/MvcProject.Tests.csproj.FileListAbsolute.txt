@@ -36,3 +36,60 @@ C:\Users\drago\source\repos\MvcProject\XUnitTestProject1\bin\Debug\netcoreapp2.1
 C:\Users\drago\source\repos\MvcProject\XUnitTestProject1\bin\Debug\netcoreapp2.1\MvcProject.dll
 C:\Users\drago\source\repos\MvcProject\XUnitTestProject1\bin\Debug\netcoreapp2.1\MvcProject.pdb
 C:\Users\drago\source\repos\MvcProject\XUnitTestProject1\obj\Debug\netcoreapp2.1\MvcProject.Tests.csproj.CopyComplete
+C:\source\repos\MvcProject\XUnitTestProject1\bin\Debug\netcoreapp2.1\xunit.runner.visualstudio.dotnetcore.testadapter.dll
+C:\source\repos\MvcProject\XUnitTestProject1\bin\Debug\netcoreapp2.1\xunit.runner.reporters.netcoreapp10.dll
+C:\source\repos\MvcProject\XUnitTestProject1\bin\Debug\netcoreapp2.1\xunit.runner.utility.netcoreapp10.dll
+C:\source\repos\MvcProject\XUnitTestProject1\bin\Debug\netcoreapp2.1\MvcProject.Views.dll
+C:\source\repos\MvcProject\XUnitTestProject1\bin\Debug\netcoreapp2.1\MvcProject.Views.pdb
+C:\source\repos\MvcProject\XUnitTestProject1\bin\Debug\netcoreapp2.1\MvcProject.Tests.deps.json
+C:\source\repos\MvcProject\XUnitTestProject1\bin\Debug\netcoreapp2.1\MvcProject.Tests.runtimeconfig.json
+C:\source\repos\MvcProject\XUnitTestProject1\bin\Debug\netcoreapp2.1\MvcProject.Tests.runtimeconfig.dev.json
+C:\source\repos\MvcProject\XUnitTestProject1\bin\Debug\netcoreapp2.1\MvcProject.Tests.dll
+C:\source\repos\MvcProject\XUnitTestProject1\bin\Debug\netcoreapp2.1\MvcProject.Tests.pdb
+C:\source\repos\MvcProject\XUnitTestProject1\bin\Debug\netcoreapp2.1\MvcProject.dll
+C:\source\repos\MvcProject\XUnitTestProject1\bin\Debug\netcoreapp2.1\MvcProject.pdb
+C:\source\repos\MvcProject\XUnitTestProject1\obj\Debug\netcoreapp2.1\MvcProject.Tests.csprojAssemblyReference.cache
+C:\source\repos\MvcProject\XUnitTestProject1\obj\Debug\netcoreapp2.1\MvcProject.Tests.csproj.CoreCompileInputs.cache
+C:\source\repos\MvcProject\XUnitTestProject1\obj\Debug\netcoreapp2.1\MvcProject.Tests.AssemblyInfoInputs.cache
+C:\source\repos\MvcProject\XUnitTestProject1\obj\Debug\netcoreapp2.1\MvcProject.Tests.AssemblyInfo.cs
+C:\source\repos\MvcProject\XUnitTestProject1\obj\Debug\netcoreapp2.1\MvcProject.Tests.csproj.CopyComplete
+C:\source\repos\MvcProject\XUnitTestProject1\obj\Debug\netcoreapp2.1\MvcProject.Tests.dll
+C:\source\repos\MvcProject\XUnitTestProject1\obj\Debug\netcoreapp2.1\MvcProject.Tests.pdb
+C:\Users\hemph\source\repos\MvcProject\XUnitTestProject1\obj\Debug\netcoreapp2.1\MvcProject.Tests.csprojAssemblyReference.cache
+C:\Users\hemph\source\repos\MvcProject\XUnitTestProject1\obj\Debug\netcoreapp2.1\MvcProject.Tests.csproj.CoreCompileInputs.cache
+C:\Users\hemph\source\repos\MvcProject\XUnitTestProject1\obj\Debug\netcoreapp2.1\MvcProject.Tests.AssemblyInfoInputs.cache
+C:\Users\hemph\source\repos\MvcProject\XUnitTestProject1\obj\Debug\netcoreapp2.1\MvcProject.Tests.AssemblyInfo.cs
+C:\Users\hemph\source\repos\MvcProject\XUnitTestProject1\bin\Debug\netcoreapp2.1\xunit.runner.visualstudio.dotnetcore.testadapter.dll
+C:\Users\hemph\source\repos\MvcProject\XUnitTestProject1\bin\Debug\netcoreapp2.1\xunit.runner.reporters.netcoreapp10.dll
+C:\Users\hemph\source\repos\MvcProject\XUnitTestProject1\bin\Debug\netcoreapp2.1\xunit.runner.utility.netcoreapp10.dll
+C:\Users\hemph\source\repos\MvcProject\XUnitTestProject1\bin\Debug\netcoreapp2.1\MvcProject.Views.dll
+C:\Users\hemph\source\repos\MvcProject\XUnitTestProject1\bin\Debug\netcoreapp2.1\MvcProject.Views.pdb
+C:\Users\hemph\source\repos\MvcProject\XUnitTestProject1\bin\Debug\netcoreapp2.1\MvcProject.Tests.deps.json
+C:\Users\hemph\source\repos\MvcProject\XUnitTestProject1\bin\Debug\netcoreapp2.1\MvcProject.Tests.runtimeconfig.json
+C:\Users\hemph\source\repos\MvcProject\XUnitTestProject1\bin\Debug\netcoreapp2.1\MvcProject.Tests.runtimeconfig.dev.json
+C:\Users\hemph\source\repos\MvcProject\XUnitTestProject1\bin\Debug\netcoreapp2.1\MvcProject.Tests.dll
+C:\Users\hemph\source\repos\MvcProject\XUnitTestProject1\bin\Debug\netcoreapp2.1\MvcProject.Tests.pdb
+C:\Users\hemph\source\repos\MvcProject\XUnitTestProject1\bin\Debug\netcoreapp2.1\MvcProject.dll
+C:\Users\hemph\source\repos\MvcProject\XUnitTestProject1\bin\Debug\netcoreapp2.1\MvcProject.pdb
+C:\Users\hemph\source\repos\MvcProject\XUnitTestProject1\obj\Debug\netcoreapp2.1\MvcProject.Tests.csproj.CopyComplete
+C:\Users\hemph\source\repos\MvcProject\XUnitTestProject1\obj\Debug\netcoreapp2.1\MvcProject.Tests.dll
+C:\Users\hemph\source\repos\MvcProject\XUnitTestProject1\obj\Debug\netcoreapp2.1\MvcProject.Tests.pdb
+C:\Users\WeCanCodeIT\source\repos\Module Three-MVC\MvcProject\XUnitTestProject1\bin\Debug\netcoreapp2.1\xunit.runner.visualstudio.dotnetcore.testadapter.dll
+C:\Users\WeCanCodeIT\source\repos\Module Three-MVC\MvcProject\XUnitTestProject1\bin\Debug\netcoreapp2.1\xunit.runner.reporters.netcoreapp10.dll
+C:\Users\WeCanCodeIT\source\repos\Module Three-MVC\MvcProject\XUnitTestProject1\bin\Debug\netcoreapp2.1\xunit.runner.utility.netcoreapp10.dll
+C:\Users\WeCanCodeIT\source\repos\Module Three-MVC\MvcProject\XUnitTestProject1\bin\Debug\netcoreapp2.1\MvcProject.Views.dll
+C:\Users\WeCanCodeIT\source\repos\Module Three-MVC\MvcProject\XUnitTestProject1\bin\Debug\netcoreapp2.1\MvcProject.Views.pdb
+C:\Users\WeCanCodeIT\source\repos\Module Three-MVC\MvcProject\XUnitTestProject1\bin\Debug\netcoreapp2.1\MvcProject.Tests.deps.json
+C:\Users\WeCanCodeIT\source\repos\Module Three-MVC\MvcProject\XUnitTestProject1\bin\Debug\netcoreapp2.1\MvcProject.Tests.runtimeconfig.json
+C:\Users\WeCanCodeIT\source\repos\Module Three-MVC\MvcProject\XUnitTestProject1\bin\Debug\netcoreapp2.1\MvcProject.Tests.runtimeconfig.dev.json
+C:\Users\WeCanCodeIT\source\repos\Module Three-MVC\MvcProject\XUnitTestProject1\bin\Debug\netcoreapp2.1\MvcProject.Tests.dll
+C:\Users\WeCanCodeIT\source\repos\Module Three-MVC\MvcProject\XUnitTestProject1\bin\Debug\netcoreapp2.1\MvcProject.Tests.pdb
+C:\Users\WeCanCodeIT\source\repos\Module Three-MVC\MvcProject\XUnitTestProject1\bin\Debug\netcoreapp2.1\MvcProject.dll
+C:\Users\WeCanCodeIT\source\repos\Module Three-MVC\MvcProject\XUnitTestProject1\bin\Debug\netcoreapp2.1\MvcProject.pdb
+C:\Users\WeCanCodeIT\source\repos\Module Three-MVC\MvcProject\XUnitTestProject1\obj\Debug\netcoreapp2.1\MvcProject.Tests.csprojAssemblyReference.cache
+C:\Users\WeCanCodeIT\source\repos\Module Three-MVC\MvcProject\XUnitTestProject1\obj\Debug\netcoreapp2.1\MvcProject.Tests.csproj.CoreCompileInputs.cache
+C:\Users\WeCanCodeIT\source\repos\Module Three-MVC\MvcProject\XUnitTestProject1\obj\Debug\netcoreapp2.1\MvcProject.Tests.AssemblyInfoInputs.cache
+C:\Users\WeCanCodeIT\source\repos\Module Three-MVC\MvcProject\XUnitTestProject1\obj\Debug\netcoreapp2.1\MvcProject.Tests.AssemblyInfo.cs
+C:\Users\WeCanCodeIT\source\repos\Module Three-MVC\MvcProject\XUnitTestProject1\obj\Debug\netcoreapp2.1\MvcProject.Tests.csproj.CopyComplete
+C:\Users\WeCanCodeIT\source\repos\Module Three-MVC\MvcProject\XUnitTestProject1\obj\Debug\netcoreapp2.1\MvcProject.Tests.dll
+C:\Users\WeCanCodeIT\source\repos\Module Three-MVC\MvcProject\XUnitTestProject1\obj\Debug\netcoreapp2.1\MvcProject.Tests.pdb

@@ -1,0 +1,28 @@
+﻿
+h6{
+    font-size:2rem;
+    color:yellow;
+}
+
+body {
+    font-family: sans-serif;
+    font-size: 1rem;
+    text-align: center;
+    background-image: url(/Images/leather.jpg);
+    background-size: cover;
+    background-position: center;
+    margin-top: 1em;
+    color: gold;
+}
+
+.three :visited{
+    color:gold;
+}
+
+.three :hover{
+    color:yellow;
+}
+
+.three :link{
+    color:gold;
+}

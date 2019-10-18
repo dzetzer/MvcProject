@@ -1,19 +1,23 @@
-
+﻿
 a {
     padding: 2rem;
 }
-img{
+
+img {
     border-radius: 1rem;
 }
+
 html {
     font-size: 1rem;
     margin-top: 3em;
 }
 
+
 h1 {
-    font-size: 4rem;
     color:gold;
+    font-size: 4rem;
 }
+
 footer {
     margin-top: 2em;
     margin-bottom: 1em;
@@ -22,21 +26,19 @@ footer {
     padding: 1em;
     text-align: center;
 }
-div{
+
+div {
     display: flex;
     flex-direction: column;
     justify-content: center;
     padding: 2rem;
-    color:gold;
-    font-size:1.5rem;
 }
+
 footer {
     display: grid;
     justify-content: center;
     margin: 0 auto;
     max-width: 50rem;
-    margin-top: 2em;
-    margin-bottom: 1em;
 }
 
 body {
@@ -46,20 +48,24 @@ body {
     background-image: url(/Images/leather.jpg);
     background-size: cover;
     background-position: center;
-    margin-top: 1em;
+    margin-top: 3em;
 }
-.one :link{
-    font-size:1.5rem;
+
+article{
     color:gold;
+    font-size:1.5rem;
 }
 
 .one :visited {
-    font-size:1.5rem;
+    font-size: 1.5rem;
     color: gold;
 }
 
-.one :hover{
-    color:gold;
+.one :hover {
+    color: gold;
 }
 
-
+.two{
+    color:gold;
+    
+}

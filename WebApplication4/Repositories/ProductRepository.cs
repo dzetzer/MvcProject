@@ -32,6 +32,12 @@ namespace MvcProject.Repositories
             db.SaveChanges();
         }
 
+        public void Edit(Product product)
+        {
+            db.Products.Update(product);
+            db.SaveChanges();
+        }
+
         public IEnumerable<Product> GetAll()
         {
             return db.Products.ToList();
@@ -51,5 +57,6 @@ namespace MvcProject.Repositories
         {
             db.SaveChanges();
         }
+
     }
 }

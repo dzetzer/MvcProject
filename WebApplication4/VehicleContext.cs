@@ -30,7 +30,7 @@ namespace MvcProject
                 new Product()
                 {
                     ID = 1,
-                    Image = "/Images/mclaren-570s-spider-design-edition.jpg",
+                    Image = "/Images/mclaren.jpg",
                     Title = "McLaren 570 Spyder",
                     Category = "Sports Car",
                     Manufacturer = "McLaren Automotives",

@@ -1,0 +1,56 @@
+﻿@model MvcProject.Models.Review
+@addTagHelper *,Microsoft.AspNetCore.Mvc.TagHelpers
+
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Edit</title>
+    <link rel="stylesheet" href="~/Styles/CreateByProduct.css" />
+</head>
+<body>
+
+    <h4>Review</h4>
+    <hr />
+    <div class="row">
+        <div class="col-md-4">
+            <form asp-action="Edit">
+                <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                <input type="hidden" asp-for="ID" />
+                <div class="form-group">
+                    <label asp-for="UserName" class="control-label"></label>
+                    <input asp-for="UserName" class="form-control" />
+                    <span asp-validation-for="UserName" class="text-danger"></span>
+                </div><br>
+                <div class="form-group">
+                    <label asp-for="Rating" class="control-label"></label>
+                    <select asp-for="Rating" class="form-control">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option> </select>
+                    <span asp-validation-for="Rating" class="text-danger"></span>
+                </div><br>
+                <div class="form-group">
+                    <p>Review:</p>
+                    <textarea asp-for="Content" rows="10" cols="30" class="form-control"></textarea>
+                    <span asp-validation-for="Content" class="text-danger"></span>
+                </div><br>
+                <div class="form-group">
+                    <input type="hidden"  name="ProductID" class="form-control" value="@Model.ProductID" />
+                    <span asp-validation-for="ProductID" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <input type="submit" value="Save" class="btn btn-default" />
+                </div>
+            </form>
+        </div>
+     </div>
+</body>
+</html>
