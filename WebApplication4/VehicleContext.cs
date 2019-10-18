@@ -92,7 +92,6 @@ namespace MvcProject
                 new Review()
                 {
                     ID = 1,
-
                     Content = "This Car Is Super Fast",
                     Rating = 5,
                     UserName = "SpyderMan",
@@ -102,7 +101,6 @@ namespace MvcProject
                 new Review()
                 {
                     ID = 2,
-
                     Content = "Very Expensive",
                     Rating = 1,
                     UserName = "Janitor",
@@ -112,7 +110,6 @@ namespace MvcProject
                 new Review()
                 {
                     ID = 3,
-
                     Content = "Guts, Glory, Ram",
                     Rating = 3,
                     UserName = "Truck Fan",
@@ -122,7 +119,6 @@ namespace MvcProject
                 new Review()
                 {
                     ID = 4,
-
                     Content = "It's a good truck. Good gas mileage.",
                     Rating = 3,
                     UserName = "Tater.Mpeg",
@@ -132,7 +128,6 @@ namespace MvcProject
                 new Review()
                 {
                     ID = 5,
-
                     Content = "Unparralled Performace",
                     Rating = 4,
                     UserName = "Horse Breeder",
@@ -142,7 +137,6 @@ namespace MvcProject
                 new Review()
                 {
                     ID = 6,
-
                     Content = "Doesn't fit taller people.",
                     Rating = 2,
                     UserName = "Too Tall For Life",
@@ -152,7 +146,6 @@ namespace MvcProject
                 new Review()
                 {
                     ID = 7,
-
                     Content = "This car puts the thrill in every ride",
                     Rating = 4,
                     UserName = "Bumblebee",
@@ -163,7 +156,6 @@ namespace MvcProject
                 new Review()
                 {
                     ID = 8,
-
                     Content = "This car has transformed my life.",
                     Rating = 5,
                     UserName = "Optimus Prime",
@@ -173,7 +165,6 @@ namespace MvcProject
                 new Review()
                 {
                     ID = 9,
-
                     Content = "Sporty Coupe!",
                     Rating = 3,
                     UserName = "Father Time",
@@ -183,7 +174,6 @@ namespace MvcProject
                 new Review()
                 {
                     ID = 10,
-
                     Content = "This was my first car. It brings back memories.",
                     Rating = 5,
                     UserName = "Nostalgia",
