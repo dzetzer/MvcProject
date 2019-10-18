@@ -6,14 +6,7 @@ namespace MvcProject.Migrations
     {
         protected override void Up(MigrationBuilder migrationBuilder)
         {
-            //migrationBuilder.DropColumn(
-            //    name: "Image",
-            //    table: "Reviews");
-
-            //migrationBuilder.DropColumn(
-            //    name: "Title",
-            //    table: "Reviews");
-
+            
             migrationBuilder.UpdateData(
                 table: "Products",
                 keyColumn: "ID",
@@ -24,16 +17,7 @@ namespace MvcProject.Migrations
 
         protected override void Down(MigrationBuilder migrationBuilder)
         {
-            migrationBuilder.AddColumn<string>(
-                name: "Image",
-                table: "Reviews",
-                nullable: true);
-
-            migrationBuilder.AddColumn<string>(
-                name: "Title",
-                table: "Reviews",
-                nullable: true);
-
+           
             migrationBuilder.UpdateData(
                 table: "Products",
                 keyColumn: "ID",

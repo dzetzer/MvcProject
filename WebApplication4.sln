@@ -3,9 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28307.779
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MvcProject", "WebApplication4\MvcProject.csproj", "{7B201824-5C77-48DA-9FE6-17B7221E271C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MvcProject", "WebApplication4\MvcProject.csproj", "{7B201824-5C77-48DA-9FE6-17B7221E271C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MvcProject.Tests", "XUnitTestProject1\MvcProject.Tests.csproj", "{DF70C19E-8A73-4465-BA85-CB499009FE60}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MvcProject.Tests", "XUnitTestProject1\MvcProject.Tests.csproj", "{DF70C19E-8A73-4465-BA85-CB499009FE60}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
